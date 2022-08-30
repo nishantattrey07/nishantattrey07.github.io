@@ -44,6 +44,18 @@
             <li>
                 <a href="#contacts">Contact Me</a>
             </li>
+            <br>
+            <li>
+                <a href="#table">Tables in HTML</a>
+            </li>
+            <br>
+            <li>
+                <a href="#forms">Forms in HTML</a>
+            </li>
+            <br>
+            <li>
+                <a href="#compform">Let's Talk</a>
+            </li>
         </ul>
 
     </nav>
@@ -505,7 +517,7 @@
     </p>
 
 
-
+<section id="table">
     <p>
     <h1><b>Adding Table to HTML page </b></h1>
     <hr>
@@ -776,7 +788,9 @@
 
     </p>
     </p>
-    <!-- isse upar kam kar -->
+</section>
+    <!-- Forms is HTML -->
+    <section id="forms">
     <p>
     <h1>Forms in HTML</h1>
     <hr>
@@ -785,12 +799,13 @@
     <br>&lt;form&gt; consist of input elements such as text fields, checkboxes, radio buttons,submit buttons, etc.
     <br>
     <ul>
-        <li> <h3> &lt;input&gt; element </h3>
+        <li>
+            <h3> &lt;input&gt; element </h3>
             The HTML &lt;input&gt; is the most used form element
             <br>
             <br>
             <table>
-        
+
                 <thead>
                     <caption>Uage of input element
                     </caption>
@@ -802,20 +817,20 @@
                 <tbody>
                     <tr>
                         <td>&lt;input type="text"&gt;</td>
-        
+
                         <td>Displays a single-line text input field</td>
                     </tr>
                     <tr>
                         <td>&lt;input type="radio"&gt;</td>
-                        <td>	Displays a radio button (for selecting one of many choices)</td>
+                        <td> Displays a radio button (for selecting one of many choices)</td>
                     </tr>
                     <tr>
                         <td>&lt;input type="checkbox"&gt;</td>
-                        <td>		Displays a checkbox (for selecting zero or more of many choices)</td>
+                        <td> Displays a checkbox (for selecting zero or more of many choices)</td>
                     </tr>
                     <tr>
                         <td>&lt;input type="submit"&gt;</td>
-                        <td>		Displays a submit button (for submitting the form)</td>
+                        <td> Displays a submit button (for submitting the form)</td>
                     </tr>
                     <tr>
                         <td>&lt;input type="button"&gt;</td>
@@ -823,29 +838,29 @@
                     </tr>
                 </tbody>
             </table>
-           </li>
-           <br>
-           <li>
+        </li>
+        <br>
+        <li>
             <h3>&lt;label&gt; element</h3>
             <ol>
                 <li>&lt;label&gt; tag defines a label for many form elements</li>
                 <li>The &lt;label&gt; element is useful for screen-reader users</li>
             </ol>
-           </li>
-           <br>
-           Now using &lt;input&gt; and &lt;label&gt; I will make a part of a form
-           <br>&nbsp;
-           <form >
+        </li>
+        <br>
+        Now using &lt;input&gt; and &lt;label&gt; I will make a part of a form
+        <br>&nbsp;
+        <form>
             <label for="fname">First name:</label>
             <br><input type="text" id="fname" name="fname">
-           <br><label for="lname">Last name:</label>
+            <br><label for="lname">Last name:</label>
             <br><input type="text" id="lname" name="lname">
-           </form>
-           <br>&nbsp;
-           <br>THe code I used to make this part of form
-           <br>
-           <br>
-           <code>
+        </form>
+        <br>&nbsp;
+        <br>The code I used to make this part of form
+        <br>
+        <br>
+        <code>
             &lt;form &gt;
             <br>&lt;label for="fname"&gt;First name:&lt;/label&gt;
            <br> &lt;br&gt;&lt;input type="text" id="fname" name="fname"&gt;
@@ -853,19 +868,139 @@
            <br> &lt;br&gt;&lt;input type="text" id="lname" name="lname"&gt;
            <br>&lt;/form&gt;
            </code>
-           <li>
+        <li>
             <h3>Radio Buttons</h3>
-            The &lt;input type="radio"&gt; defines a radio button.Radio buttons let a user select One of a limited number of choices.
-           </li>
+            The &lt;input type="radio"&gt; defines a radio button.Radio buttons let a user select One of a limited
+            number of choices.
+            <br>
+            <br>&nbsp;
+            <p>Lets see how Radio button work...
+                <br>
+                <br>Will you contribute to this project?
+                <br>
+            <form>
+                <input type="radio" id="yes" name="Will you contribute to this project?" name="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="Will you contribute to this project?" value="no">
+                <label for="no">No</label>
+                <input type="radio" id="notsure" name="Will you contribute to this project?" value="notsure">
+                <label for="notsure">Not Sure</label>
+            </form>
+            </p>
 
-           
+            Code for this:
+            <br><code>
+                    &lt;form &gt;
+                    &lt;input type="radio" id="yes" name="Will you contribute to this project?" name="yes"&gt;
+               <br> &lt;label for="yes"&gt;Yes&lt;/label&gt;
+               <br> &lt;input type="radio" id="no" name="Will you contribute to this project?" value="no"&gt;
+               <br> &lt;label for="no"&gt;No&lt;/label&gt;
+               <br> &lt;input type="radio" id="notsure" name="Will you contribute to this project?" value="notsure"&gt;
+               <br> &lt;label for="notsure"&gt;Not Sure&lt;/label&gt;
+               <br> &lt;/form&gt;
+                </code>
+        </li>
+        <li>
+            <h3>Checkboxes</h3>
+            The &lt;input type="checkbox"&gt; defines a checkbox.Checkboxes let a user select ZERO or MORE options of a
+            limited number of choices.
+
+            <p>Lets see how Checkbox work...
+                <br>
+                <br>Where do you found about this project?
+                <br>
+
+            <form>
+                <input type="checkbox" id="Github" name="Where do you found about this project?" value="Github">
+                <label for="Gihub">Github</label>
+                <input type="checkbox" id="twitter" name="Where do you found about this project?" value="twitter">
+                <label for="twitter">Twitter</label>
+                <input type="checkbox" id="discord" name="Where do you found about this project?" value="discord">
+                <label for="discord">Discord Server</label>
+                <input type="checkbox" id="others" name="Where do you found about this project?" value="others">
+                <label for="others">Others</label>
+            </form>
+            </p>
+            code for this:
+            <code>
+                &lt;form&gt;
+                <br>&lt;input type="checkbox" id="Github" name="Where do you found about this project?" value="Github"&gt;
+                <br>&lt;label for="Gihub"&gt;Github&lt;/label&gt;
+               <br> &lt;input type="checkbox" id="twitter" name="Where do you found about this project?" value="twitter"&gt;
+               <br> &lt;label for="twitter"&gt;Twitter&lt;/label&gt;
+                <br>&lt;input type="checkbox" id="discord" name="Where do you found about this project?" value="discord"&gt;
+               <br> &lt;label for="discord"&gt;Discord Server&lt;/label&gt;
+               <br> &lt;input type="checkbox" id="others" name="Where do you found about this project?" value="others"&gt;
+               <br> &lt;label for="others"&gt;Others&lt;/label&gt;
+                <br>&lt;/form&gt;
+            </code>
+
+        </li>
+        <li>
+            <h3>Submit Button</h3>
+            The submit button is used for submitting the form data to a form-handler
+            <br>
+            <br><b>What is form-handler?</b>
+            <br>The form-handler is a file on the server with a script for processing input data.
+            form-handler is specified in the form's "action" attribute.
+            <br>
+            <br><button type="submit">Submit</button>
+            <br>
+            <br>Code for the Submit button
+            <br><code>&lt;button type="submit"&gt;Submit&lt;/button&gt;</code>
+        </li>
+        <li>
+            <h3>Reset Button</h3>
+            Reset button is used for resetting the form 
+            <br>&nbsp;
+            <br>
+            <button type="reset">Reset</button>
+            <br>
+            <code>&lt;button type="reset"&gt;Reset&lt;/button&gt;</code>
+        </li>
     </ul>
+</section>
+<!-- Complete Form for user interaction-->
+<section id="compform">
+    <p>
+        <h3>Now let's make a complete form </h3>
+        <fieldset>
+            
+        <br>
+        <form action="https://httpbin.org/get" method="get" id="aboutProject">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Username" placeholder="Jack" autocomplete="on" required>
+            <p>Will you contribute to the project?</p>
+            <input type="radio" id="yes" name="Will you contribute" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="Will you contribute" value="No">
+            <label for="no">No</label>
+            <input type="radio" id="notsure" name="Will you contribute" value="Not Sure">
+            <label for="notsure">Not Sure</label>
+            <br>
+            <p>How you got to know about this project?</p>
+            <input type="checkbox" id="Twitter" name="How you know about this project?" value="Twitter">
+            <label for="Twitter">Twitter</label>
+            <input type="checkbox" id="Github" name="How you know about this project?" value="Github">
+            <label for="Github">Github</label>
+            <input type="checkbox" id="Discord" name="How you know about this project?" value="Discord">
+            <label for="Discord">Discord</label>
+            <input type="checkbox" id="others" name="How you know about this project?" value="others">
+            <label for="others">Others</label>
+            <br>&nbsp;
+           <br> <button type="submit">submit</button>
+           <button type="reset">Fill Again</button>
+        </form>
+    </fieldset>
+    </p>
+</section>
+
     </p>
 </body>
 <footer>
     <nav>
         <a href="#">Go back to Top</a>
-       
+
     </nav>
 </footer>
 
