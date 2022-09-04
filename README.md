@@ -14,12 +14,13 @@ If your interests align with the aim of the project (to learn and share your lea
 <details>
 <summary>Fork and Clone </summary>
 <ol>
-<li>Forking the Repository</li>
-<br>
+<li><b>Forking the Repository</b>
 <br>Go to the repository and At the top mid right of the repository their is an option of fork, click it and fork the repository
 <figure>
-<img src="img/step0.png" alt="Forking repository" width="456" height="71">
-</figure>
+<br><img src="img/step0.png" alt="Forking repository" width="456" height="71">
+</figure></li>
+<br>
+
 </ol>
 
 </details>
