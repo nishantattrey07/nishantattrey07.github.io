@@ -32,7 +32,7 @@ If your interests align with the aim of the project (to learn and share your lea
 <li>
 <br>Now copy the link of forked repository from your account
 <figure>
-<br><img src="img/step2.png" alt="copying link of forked repository" width="381" height="285">
+<br><img src="img/step2.png" alt="copying link of forked repository" width="379" height="275">
 </figure>
 </li>
 <li>
