@@ -41,8 +41,30 @@ If your interests align with the aim of the project (to learn and share your lea
 <br><img src="img/step3.png" alt="cloning forked repository using git clone command" width="727" height="36">
 </figure>
 </li>
-
 </ol>
+</ol>
+<p>Now you have cloned the repository to your system, you can now contribute to this project while learning but wait!
+<br>
+<br>Now you might have a question that Hey Nishant we have added our part or say I have contributed to this project but its not showing on any repository neither on the forked repository nor on the main one, so what to do?
+<br>
+<br>Well there are still some parts left that you should know 
+</p>
+<br>
+<li>commit,push and pull</li>
+<h3>commit and push</h3>
+<ol>
+<li>After completing your contribution or any change it's time you update it on the github
+<br>So let's do it
+<ul>
+<li>
+<code>git add --all</code></li>
+<li>
+<code>git commit -m "&lt;your message while committing&gt;"</code></li>
+<li>
+<code>git push -u origin main</code></li>
 
+</ul>
+</li>
+</ol>
 
 </ul>
