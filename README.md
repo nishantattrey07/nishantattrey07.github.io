@@ -11,7 +11,7 @@ If your interests align with the aim of the project (to learn and share your lea
 <p>Now you will say "dude we are beginners, how we are going to fork and clone it?" 
 <br>Don't worry  I am here to guide you through the step-wise process of making your first ever Open-Source contribution if you have not already</p>
 
-<h3>Fork and Clone<h3>
+<h3>Fork and Clone</h3>
 <ol>
 <li><b>Forking the Repository</b>
 <br>Go to the repository and At the top mid right of the repository their is an option of fork, click it and fork the repository
