@@ -63,6 +63,10 @@ If your interests align with the aim of the project (to learn and share your lea
 <li>
 <code>git push -u origin main</code></li>
 
+<figure>
+<br><img src="img/commitandpush.png" alt="commit and push is shown in this image" width="840" height="370">
+</figure>
+
 </ul>
 </li>
 </ol>
