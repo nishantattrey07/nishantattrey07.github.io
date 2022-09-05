@@ -70,5 +70,10 @@ If your interests align with the aim of the project (to learn and share your lea
 </ul>
 </li>
 </ol>
-
+<h3>Pull Request</h3>
+By now you have updated the changes you made in the forked repository on your account and now it's time to add those changes to the main repository for that you need to Pull a request to the maintainer or author of the project. Let's see how it's done
+<ol>
+<li>Go to Pull Request section on your forked repository</li>
+<li>Now click on New Pull Request button (green colour) on right of your screen </li>
+</ol>
 </ul>
