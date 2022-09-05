@@ -16,7 +16,7 @@ If your interests align with the aim of the project (to learn and share your lea
 <li><b>Forking the Repository</b>
 <br>Go to the repository and At the top mid right of the repository their is an option of fork, click it and fork the repository
 <figure>
-<br><img src="img/step0.png" alt="Forking repository" width="456" height="71">
+<br><img src="img/step0.png" alt="Forking repository" width="456" height="68">
 </figure>
 </li>
 <br>
@@ -26,13 +26,13 @@ If your interests align with the aim of the project (to learn and share your lea
 <li>
 <br>Now go to your accounts forked repository, you will find green colour code button on right side of your screen
 <figure>
-<br><img src="img/step1.png" alt="green code button" width="898" height="120">
+<br><img src="img/step1.png" alt="green code button" width="896" height="120">
 </figure>
 </li>
 <li>
 <br>Now copy the link of forked repository from your account
 <figure>
-<br><img src="img/step2.png" alt="copying link of forked repository" width="379" height="275">
+<br><img src="img/step2.png" alt="copying link of forked repository" width="376" height="272">
 </figure>
 </li>
 <li>
@@ -58,15 +58,16 @@ If your interests align with the aim of the project (to learn and share your lea
 <ul>
 <li>
 <code>git add --all</code></li>
+<figure>
+<br><img src="img/commitpush0.png" alt="commit and push" width="812" height="168">
+</figure>
 <li>
 <code>git commit -m "&lt;your message while committing&gt;"</code></li>
 <li>
-<code>git push -u origin main</code></li>
-
+<code>git push -u origin main</code>
 <figure>
-<br><img src="img/commitandpush.png" alt="commit and push is shown in this image" width="840" height="370">
-</figure>
-
+<br><img src="img/commitpush1.png" alt="commit and push is shown in this image" width="840" height="368">
+</figure></li>
 </ul>
 </li>
 </ol>
@@ -74,6 +75,20 @@ If your interests align with the aim of the project (to learn and share your lea
 By now you have updated the changes you made in the forked repository on your account and now it's time to add those changes to the main repository for that you need to Pull a request to the maintainer or author of the project. Let's see how it's done
 <ol>
 <li>Go to Pull Request section on your forked repository</li>
+<figure>
+<br><img src="img/pull1.png" alt="showing pull request" width="835" height="95">
+</figure>
 <li>Now click on New Pull Request button (green colour) on right of your screen </li>
+<figure>
+<br><img src="img/pull2.png" alt="create new pull request" width="435" height="61">
+</figure>
+<li>Now click on create pull request button on the right side</li>
+<figure>
+<br><img src="img/pull3.png" alt="create pull request" width="435" height="61">
+</figure>
+<li>Add the title of your pull request(specific to changes or updates you made) and explain it in the comment section</li>
+<figure>
+<br><img src="img/pull4.png" alt="Adding title for pull request" width="1094" height="485">
+</figure>
 </ol>
 </ul>
