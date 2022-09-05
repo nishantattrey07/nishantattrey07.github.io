@@ -1,12 +1,13 @@
 # nishantattrey07.github.io
-Hey everyone, this repo is beginner friendly made for the developer who has started in Front-End Development and also wants to start with Open Source. In this project, you can learn about HTML and also modify the website according to you or add something you have learned.
+<h3>Aim of the project- This project aims to help people who are new to Front-End web development and also want to start with Open-Source</h3>
+Hey everyone, this repo is beginner friendly. In this project, you can learn about HTML and also modify the website according to you or add something you have learned.
 Happy Contributing.
 <br>
 <h2>How to Start?</h2>
 <ul>
 <li>First, go through the website and try to understand what is this website about</li>
 <li>
-If your interests align with the aim of the project (to learn and share your learning and help others to learn ) <b>Fork the repository and then clone it</b></li>
+If your interests align with the aim of the project <b>Fork the repository and then clone it</b></li>
 <br>
 <p>Now you will say "dude we are beginners, how we are going to fork and clone it?" 
 <br>Don't worry  I am here to guide you through the step-wise process of making your first ever Open-Source contribution if you have not already</p>
@@ -90,5 +91,9 @@ By now you have updated the changes you made in the forked repository on your ac
 <figure>
 <br><img src="img/pull4.png" alt="Adding title for pull request" width="1094" height="485">
 </figure>
+<li>Now click on Create Pull request</li>
 </ol>
+<h5>Congrats! you did your first contribution just wait for getting your pull request approved<h5>
 </ul>
+<p>More Updates coming soon... 
+<br>Happy learning and contributing, I hope you learned something new.</p>
