@@ -3,19 +3,56 @@ html {
 }
 
 body {
-    background-color: rgb(243, 237, 237);
+    background-color: white;
     color: #333;
+    border: 30px;
 
 }
-
-a:visited {
-    color: rgb(114, 173, 224);
+/* this is for main LEARNING HTML (HEAD) */
+.mainhead{
+  /* width: auto;
+  border: 0px #0099ff;
+  padding: 0px;
+  margin: 0px; */
+  color: black;
+  text-align: center;
+  
 }
+
+
+/* this is for heading layout */
+.options{
+  
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: right;
+  cursor: pointer;
+}
+
+/* thi is for links */
+a:link, a:visited{
+  color: crimson;
+  text-decoration: none;
+}
+
+
 
 a:hover {
     color: rgb(78, 103, 126);
 }
 
+
+/* this is for heading h2 */
+
+h1{
+  color: rgb(155, 36, 36);
+}
+
+/* customizing headings content */
+.headpad{
+ 
+}
+/* this is for tables */
 table, th, td {
     
     font-family: 'Courier New', Courier, monospace;
@@ -34,5 +71,3 @@ table, th, td {
    
   }
   tr:hover {background-color: #D6EEEE;}
-
- 
