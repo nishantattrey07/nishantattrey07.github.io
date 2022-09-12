@@ -4,8 +4,8 @@ html {
 
 body {
     background-color: white;
-    color: #333;
-    border: 30px;
+    color: black;
+    border: 25px;
 
 }
 /* this is for main LEARNING HTML (HEAD) */
@@ -19,6 +19,12 @@ body {
   
 }
 
+.hrnew1{
+  width: 50%;
+}
+*{
+ 
+}
 
 /* this is for heading layout */
 .options{
@@ -44,13 +50,19 @@ a:hover {
 
 /* this is for heading h2 */
 
-h1{
-  color: rgb(155, 36, 36);
-}
+/* h1{
+  
+  font-weight: bold;
+} */
 
 /* customizing headings content */
-.headpad{
- 
+.divhead{
+  
+  border-left: medium outset crimson;
+  border-radius: 4px;
+  color: rgb(155, 36, 36);
+  font-size: 43px;
+  
 }
 /* this is for tables */
 table, th, td {
