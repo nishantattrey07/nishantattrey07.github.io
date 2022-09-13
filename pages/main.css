@@ -5,8 +5,10 @@ html {
 body {
     background-color: white;
     color: black;
-    border: 25px;
-
+    border: 100%;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    /* font-family: Arial, Helvetica, sans-seri; */
+    font-family: "Times New Roman", Times, serif;
 }
 /* this is for main LEARNING HTML (HEAD) */
 .mainhead{
@@ -16,27 +18,31 @@ body {
   margin: 0px; */
   color: black;
   text-align: center;
-  
+    
 }
 /* this is for heading layout */
 .options{
   
   font-size: medium;
+  font-variant: small-caps;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: right;
   cursor: pointer;
+  vertical-align: baseline;
 }
 
 /* thi is for links */
-a:link, a:visited{
+a:link{
   color: crimson;
   text-decoration: none;
 }
-
-
-
+a:visited{
+  color: crimson;
+  text-decoration: none;
+}
 a:hover {
     color: rgb(78, 103, 126);
+    font-size: 110%;
 }
 
 
@@ -56,6 +62,16 @@ a:hover {
   font-size: 43px;
   
 }
+
+/* .code class to showcase code on website*/
+.code{
+  background-color: #333;
+  height: auto;
+  text-align: justify;
+  color: aliceblue;
+  width: max-content;
+}
+
 /* this is for tables */
 table, th, td {
     
