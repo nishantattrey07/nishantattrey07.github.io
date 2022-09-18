@@ -11,8 +11,13 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+content{
+  margin-top: 100px;
+}
+
 .fix1, .fix2 {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
 }
 /* this is for main LEARNING HTML (HEAD) */
 .mainhead{
@@ -20,19 +25,28 @@ body {
   border: 0px #0099ff;
   padding: 0px;
   margin: 0px; */
-  color: black;
+  position: -webkit-sticky;
+ 
   text-align: center;
+ 
+
     
 }
 /* this is for heading layout */
 .options{
-  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  color: black;
   font-size: medium;
   font-variant: small-caps;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: right;
   cursor: pointer;
   vertical-align: baseline;
+  
 }
 
 /* thi is for links */
