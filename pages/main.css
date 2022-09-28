@@ -5,7 +5,7 @@ html {
 body {
     background-color: white;
     color: black;
-    border: 100%;
+    
     /* font-family: "Lucida Console", "Courier New", monospace; */
     /* font-family: Arial, Helvetica, sans-seri; */
     font-family: "Times New Roman", Times, serif;
@@ -27,7 +27,7 @@ content{
   margin: 0px; */
   position: -webkit-sticky;
  
-  text-align: center;
+  text-align:left;
  
 
     
