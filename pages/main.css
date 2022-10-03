@@ -33,7 +33,7 @@ content{
     
 }
 /* this is for heading layout */
-.options{
+#NavigationBar{
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -46,7 +46,53 @@ content{
   text-align: right;
   cursor: pointer;
   vertical-align: baseline;
-  
+  /***********************************************************************************/
+  /* Changes by Ritu Thakur  */
+}
+/* height : 100% ; 
+position : fixed ; 
+right : 0 ; 
+top : 76px ; 
+width : 250px ; 
+margin-top: 60px;
+background-color: rgb(185, 34, 34);
+
+}
+.toogle-button {
+  position: absolute;
+  top:.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px ;
+  height: 21px;
+}
+.menu.active{
+  display: flex;
+}
+
+.toogle-button .bar{
+  height: 3px;
+  width: 100% ; 
+  background-color: #02110c;
+  border-radius: 10px;
+}
+.menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  color: rgb(237, 237, 245);
+    border-bottom: 8px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.menu li a {
+  color : #d3d39cde; 
+  display: block ;
+  text-decoration: none;
 }
 
 /* thi is for links */
@@ -61,7 +107,7 @@ a:visited{
 a:hover {
     color: rgb(78, 103, 126);
     font-size: 110%;
-}
+} 
 
 
 /* this is for heading h2 */
@@ -78,6 +124,7 @@ a:hover {
   border-radius: 4px;
   color: rgb(155, 36, 36);
   font-size: 43px;
+  background-color: #becfc9;
   
 }
 
