@@ -18,6 +18,9 @@ content{
 .fix1, .fix2 {
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  z-index: 999;
+
 }
 /* this is for main LEARNING HTML (HEAD) */
 .mainhead{
@@ -27,7 +30,7 @@ content{
   margin: 0px; */
   position: -webkit-sticky;
  
-  text-align:left;
+  text-align:center;
  
 
     
@@ -38,6 +41,9 @@ content{
   position: sticky;
   top: 0;
   z-index: 999;
+  width: 100%; 
+  max-width:100%; 
+  height:auto;
   background-color: white;
   color: black;
   font-size: medium;
@@ -109,3 +115,12 @@ table, th, td {
    
   }
   tr:hover {background-color: #D6EEEE;}
+
+
+
+
+
+  /* 
+  
+    
+  */
