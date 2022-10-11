@@ -10,57 +10,90 @@
     <link rel="stylesheet" href="pages/main.css" type="text/css">
     <link rel="icon" href="img/html5.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    body{
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+
+    }
+    .dark-mode{
+      background-color: #282828;
+      color: white;
+    }
+    .w3-container{
+      padding: 0;
+      margin: 0;
+    }
+      .main-heading{
+        display: inline-block;
+        padding-left: 120px;
+        font-size: 40px;
+        font-weight: bolder;
+      }
+      .btn-hamburger{
+        position: absolute;
+      }
+      .content{
+        padding: 40px;
+        margin: 40px;
+      }
+      .darkMode{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+      .zoom {
+transition: transform .3s;
+  }
+
+.zoom:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+    </style>
 </head>
 
 <body>
-    <div class="mainhead">
 
-        <p>
-        <h1 id="fix1" style="margin:0px auto; color: rgb(155, 36, 36); font-size: 50px;">LEARNING HTML <i
-                class="fa-solid fa-code" style="color:rgb(155, 36, 36);"></i></h1>
+  <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <br><br>
+  <a href="#Headings" class="w3-bar-item w3-button" style="color:white;">Headings</a> <br>
+  <a href="#Lists" class="w3-bar-item w3-button" style="color:white;">Lists</a> <br>
+  <a href="#Links" class="w3-bar-item w3-button " style="color:white;">Links</a> <br>
+  <a href="#Tables" class="w3-bar-item w3-button " style="color:white;">Tables</a> <br>
+  <a href="#Forms" class="w3-bar-item w3-button " style="color:white;">Forms</a><br>
+  <a href="#videos" class="w3-bar-item w3-button " style="color:white;">Adding Videos</a><br>
+  <a href="#audios" class="w3-bar-item w3-button " style="color:white;">Adding Audios</a><br>
+  <a href="#Text-Formatting" class="w3-bar-item w3-button " style="color:white;">Text Formatting</a><br>
+</div>
 
-        </p>
-
-    </div>
-   
-    <div class="options" id="NavigationBar">
-
-        <hr class="hrnew1">
-        <p id="fix2">
-            <a href="#Headings">Headings</a> &nbsp;
-            <a href="#Lists">Lists</a> &nbsp;
-            <a href="#Link">Links</a> &nbsp;
-            <a href="#table">Tables</a> &nbsp;
-            <a href="#forms">Forms</a> &nbsp;
-            <a href="#videos">Adding Videos</a> &nbsp;
-            <a href="#audios">Adding Audios</a> &nbsp;
-            <a href="#text-formatting">Text Formatting</a>
-        </p>
-        <hr class="hrnew1">
-        <!-- <ul class="menu">
-            <li><a href="#Headings">Headings</a></li>
-            <li><a href="#Lists">Lists</a></li>
-            <li><a href="#Link">Links</a></li>
-            <li><a href="#table">Tables</a></li>
-            <li><a href="#forms">Forms</a></li>
-            <li> <a href="#videos">Adding Videos</a></li>
-            <li> <a href="#text-formatting">Text Formatting</a></li>
-        </ul> -->
-    </div>
+  <div class="w3-container">
+    <button class="w3-button w3-white w3-xxlarge btn-hamburger" onclick="w3_open()">&#9776;</button>
+    <h1 class="main-heading">LEARNING HTML <i
+            class="fa-solid fa-code"></i></h1>
+            <button onclick="myFunction()" class="btn  darkMode zoom">Toggle dark mode</button>
+  </div>
 
 
     <div class="content">
 
-        <div>
+
             <p>
-            <h1 class="divhead">Introduction</h1>
-            <p></p>
-            </p>
-        </div>
+            <h1 class=" main-heading">Introduction</h1>
+          </p>
+
         <p>
         <section id="Headings">
             <p>
-            <h1 class="divhead">Text Basic</h1>
+            <h1 class="divhead">&nbsp; Text Basic</h1>
 
             Html have 6 types of headings
             <div class="headpad">
@@ -141,7 +174,7 @@
             <p>
 
 
-            <h1 class="divhead">Lets talk about List types</h1>
+            <h1 class="divhead">&nbsp; Lets talk about List types</h1>
             <abbr title="Hyper Text Markup Language">HTML</abbr> has <b>Ordered List, Unordered List,and description
                 List</b>
             <ol>
@@ -218,7 +251,7 @@
 
         <section id="Link">
             <!-- Here starts the Learning HTML section-->
-            <h1 class="divhead">Learning Link in <abbr title="Hyper Text Markup Language">HTML</abbr> </h1>
+            <h1 class="divhead">&nbsp; Learning Link in <abbr title="Hyper Text Markup Language">HTML</abbr> </h1>
 
             We are going to start with an examples
 
@@ -333,7 +366,7 @@
                         <!-- ignore <br> I have used this only so that format of code on page look good.-->
                            <br> &lt;a href="#Lists"&gt;List Types&lt;/a&gt;
                            <br>
-                        <br>&lt;/nav&gt;  
+                        <br>&lt;/nav&gt;
                     </code>
                             <br>
                             <br>Don't forget to add "#" while calling the element
@@ -477,7 +510,7 @@
         <br>
         <br><code>
                     &lt;img src="img/img.png" alt="Showing how to add image to HTML Page" width="378" height="353" loading="lazy"&gt;
-                    
+
                 </code>
         <br>&nbsp;
         <br>This is what the result will be
@@ -1163,6 +1196,31 @@
         <p>Happy Learning future Developers!</p>
 
 
+
+
+
+
+
+        <script>
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+
+   var heading = document.getElementById("p-heading");
+   heading.classList.toggle("p-dark");
+
+   var heading2 = document.getElementById("p-heading2");
+   heading2.classList.toggle("p-dark");
+}
+
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
 </body>
 
 </div>
