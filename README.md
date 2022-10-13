@@ -1,4 +1,4 @@
-# nishantattrey07.github.io
+# [nishantattrey07.github.io](https://nishantattrey07.github.io/)
 
 <h3>Aim of the project- This project aims to help people who are new to Front-End web development and also want to start with Open-Source</h3>
 Hey everyone, this repo is beginner friendly. In this project, you can learn about HTML and also modify the website according to you or add something you have learned.
