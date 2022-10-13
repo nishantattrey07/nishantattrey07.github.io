@@ -1,4 +1,5 @@
 # nishantattrey07.github.io
+
 <h3>Aim of the project- This project aims to help people who are new to Front-End web development and also want to start with Open-Source</h3>
 Hey everyone, this repo is beginner friendly. In this project, you can learn about HTML and also modify the website according to you or add something you have learned.
 <br>
@@ -10,6 +11,7 @@ Hey everyone, this repo is beginner friendly. In this project, you can learn abo
 </p>
 <br>
 <h2>How to Start?</h2>
+<p style="text-align:center;">Do refer the <a href="https://github.com/nishantattrey07/nishantattrey07.github.io/blob/main/contributing.md">CODE OF CONDUCT.</a></p>
 <ul>
 <li>First, go through the website and try to understand what is this website about</li>
 <li>
