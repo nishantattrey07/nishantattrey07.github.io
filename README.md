@@ -4,7 +4,7 @@
 Hey everyone, This is a beginner-friendly repository. In this project, you can learn about HTML, modify the website according to your likes and add something you have learned.
 <br>
 <br>
-<p><h3><b> What is on this website?<b></h3>
+<p><h3><b> What is on this website?</b></h3>
 <br> Here I have written notes about HTML and how to use them.This helps you to learn and practise parallelly.The plus point about this website is that you will be having notes made by you and other contributors.
 <br><b>Note: CSS notes will be added soon</b>
 <br> Happy Contributing!
