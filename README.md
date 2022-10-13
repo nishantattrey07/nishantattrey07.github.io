@@ -1,13 +1,13 @@
 # [nishantattrey07.github.io](https://nishantattrey07.github.io/)
 
-<h3>Aim of the project- This project aims to help people who are new to Front-End web development and also want to start with Open-Source</h3>
-Hey everyone, this repo is beginner friendly. In this project, you can learn about HTML and also modify the website according to you or add something you have learned.
+<h3>This project aims to help people who are new to Front-End web development and also want to start with Open-Source</h3>
+Hey everyone, This is a beginner-friendly repository. In this project, you can learn about HTML, modify the website according to your likes and add something you have learned.
 <br>
 <br>
-<p><b> What is on this website?</b>
-<br> Here I have written notes about HTML and how to use them this helps you to learn and practise parallelly and the plus point is you will be having Notes side by side made by you and other contributors.
-<br><b>Note- CSS notes will be added soon</b>
-<br> Happy Contributing.
+<p><h3><b> What is on this website?<b></h3>
+<br> Here I have written notes about HTML and how to use them.This helps you to learn and practise parallelly.The plus point about this website is that you will be having notes made by you and other contributors.
+<br><b>Note: CSS notes will be added soon</b>
+<br> Happy Contributing!
 </p>
 <br>
 <h2>How to Start?</h2>
