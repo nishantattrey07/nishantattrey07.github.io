@@ -10,208 +10,31 @@
     <link rel="stylesheet" href="pages/main.css" type="text/css">
     <link rel="icon" href="img/html5.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.dark-mode {
-    background-color: #010201;
-    color: white;
-}
-.headingdefined{
-    font-size: 25px;
-}
-.divhead{
-    font-size: 40px;
-    margin: 30px 0px;
-    padding: 0 10px;
-}
-
-.main-heading {
-    display: inline-block;
-    padding: 0 80px;
-    font-weight: bolder;
-}
-.sub-main-heading{
-    font-size: 40px;
-    padding: 0 15px;
-}
-.button1{
-    color: white;
-    background-color: #333333;
-    cursor: pointer;
-    width: 50px;
-    height: 40px;
-    top: -10px;
-    border-radius: 15px;
-}
-.head1{
-    font-size: 55px;
-    width: 40%;
-}
-.head2{
-    font-size: 45px;
-    width: 40%;
-}
-.head3{
-    font-size: 35px;
-    width: 40%;
-}
-.head4{
-    font-size: 28px;
-    width: 40%;
-}
-.head5{
-    font-size: 18px;
-    width: 40%;
-}
-.head6{
-    font-size: 12px;
-    width: 40%;
-}
-.head-color{
-    color: #2899f5;
-}
-.code{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    height: 60px;
-    padding: 0 20px;
-    border-radius: 5px;
-}
-.container{
-    font-size: 24px;
-    margin: 30px 0px;
-}
-.code2{
-    padding: 0 20px;
-    background-color: #333333;
-    color: white;
-    height: 70px;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.code6{
-    padding: 0 20px;
-    background-color: #333333;
-    color: white;
-    height: 280px;
-    font-size: 18px;
-    border-radius: 5px;
-}
-.code3{
-    background-color: #333333;
-    color: white;
-    padding: 0 20px;
-    border-radius: 5px;
-
-    height: 140px;
-}
-.code4{
-    height: 180px;
-    color: white;
-    border-radius: 5px;
-
-    background-color: #333333;
-}
-.code5{
-    
-    height: 250px;
-    color: white;
-    border-radius: 5px;
-
-    background-color: #333333;
-}
-.output{
-    background-color: antiquewhite;
-   
-}
-.sub-main-heading2{
-        font-size: 30px;
-        padding: 0 0px;
-}
-.btn-hamburger {
-    position: absolute;
-    opacity: 1;
-}
-
-.content {
-    padding: 40px;
-    margin: 40px;
-}
-.dltag{
-    font-size: 18px;
-    padding: 0 15px;
-}
-.desc-list{
-    font-size: 20px;
-}
-.ul-shift{
-    padding: 0 30px;
-}
-
-.darkMode {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-}
-.sub-main-heading3{
-    font-size: 20px;
-}
-.shift-li{
-    padding: 0 14px;
-    list-style-type: none;
-}
-html{
-    scroll-behavior: smooth;
-}
-
-.zoom {
-    transition: transform .3s;
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-}
-    </style>
-    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
 
-  <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">Close &times;</button>
-  <br><br>
-  <a href="#Headings" class="w3-bar-item w3-button" style="color:white;">Headings</a> <br>
-  <a href="#Lists" class="w3-bar-item w3-button" style="color:white;">Lists</a> <br>
-  <a href="#Links" class="w3-bar-item w3-button " style="color:white;">Links</a> <br>
-  <a href="#Tables" class="w3-bar-item w3-button " style="color:white;">Tables</a> <br>
-  <a href="#Forms" class="w3-bar-item w3-button " style="color:white;">Forms</a><br>
-  <a href="#videos" class="w3-bar-item w3-button " style="color:white;">Adding Videos</a><br>
-  <a href="#audios" class="w3-bar-item w3-button " style="color:white;">Adding Audios</a><br>
-  <a href="#Text-Formatting" class="w3-bar-item w3-button " style="color:white;">Text Formatting</a><br>
+<div id="main-nav-bar">
+    <div id="main-nav-bar-child1">
+        <h1>Learning Web-Dev <i
+            class="fa-solid fa-code" id = "night"></i></h1>
+    </div>
+    <div id="main-nav-bar-child2">
+        <a href="#Headings" class="w3-bar-item w3-button" style="color:black;">Headings</a> <br>
+  <a href="#Lists" class="w3-bar-item w3-button" style="color:black;">Lists</a> <br>
+  <a href="#Links" class="w3-bar-item w3-button " style="color:black;">Links</a> <br>
+  <a href="#Tables" class="w3-bar-item w3-button " style="color:black;">Tables</a> <br>
+  <a href="#Forms" class="w3-bar-item w3-button " style="color:black;">Forms</a><br>
+  <a href="#videos" class="w3-bar-item w3-button " style="color:black;">Adding Videos</a><br>
+  <a href="#audios" class="w3-bar-item w3-button " style="color:black;">Adding Audios</a><br>
+  <a href="#text-formatting" class="w3-bar-item w3-button " style="color:black;">Text Formatting</a><br>
+    </div>
+
 </div>
 
-  <div class="w3-container">
-    <button class="w3-button w3-white w3-xxlarge btn-hamburger" onclick="w3_open()">&#9776;</button>
-    <h1 class="main-heading">LEARNING <span class = "htm">HTML</span> <i
-            class="fa-solid fa-code" id = "night"></i></h1>
-            <button onclick="myFunction()" class="btn button1 darkMode zoom"> <span><i class="fa fa-duotone fa-moon"></i></span></button>
-  </div>`
+
+
+
 
 
     <div class="content">
@@ -230,36 +53,36 @@ html{
             <div class="headpad">
                 <ol class="divhead1">
                     <li>
-                        <h1 class = "head1">Heading One (H1)</h1>
+                        <h1 class = "head">Heading One (H1)</h1>
                         <p class="code"><br><code><span class = "head-color">&lt;h1&gt;</span>Heading One (h1)<span class = "head-color">&lt;/h1&gt;</span></code></p>
 
                     </li>
 
                     <li>
-                        <h2 class = "head2">Heading Two (H2)</h2>
+                        <h2 class = "head">Heading Two (H2)</h2>
                         <p class="code"><br><code><span class = "head-color">&lt;h2&gt;</span>Heading Two (h2)<span class = "head-color">&lt;/h2&gt;</span></code></p>
 
 
                     </li>
                     <li>
-                        <h3 class = "head3">Heading Three (H3)</h3>
+                        <h3 class = "head">Heading Three (H3)</h3>
                         <p class="code"><br><code><span class = "head-color">&lt;h3&gt;</span>Heading Three (h3)<span class = "head-color">&lt;/h3&gt;</span></code></p>
 
                     </li>
                     <li>
-                        <h4 class = "head4">Heading Four (H4)</h4>
+                        <h4 class = "head">Heading Four (H4)</h4>
                         <p class="code"><br><code><span class = "head-color">&lt;h4&gt;</span>Heading Four (h4)<span class = "head-color">&lt;/h4&gt;</span></code></p>
 
 
                     </li>
                     <li>
-                        <h5 class = "head5">Heading Five (H5)</h5>
+                        <h5 class = "head">Heading Five (H5)</h5>
                         <p class="code"><br><code><span class = "head-color">&lt;h5&gt;</span>Heading Five (h5)<span class = "head-color">&lt;/h5&gt;</span></code></p>
 
 
                     </li>
                     <li>
-                        <h6 class = "head6">Heading Six (H6)</h6>
+                        <h6 class = "head">Heading Six (H6)</h6>
                         <p class="code"><br><code><span class = "head-color">&lt;h6&gt;</span>Heading Six (h6)<span class = "head-color">&lt;/h6&gt;</span></code></p>
 
 
@@ -398,13 +221,12 @@ html{
 
 
 
-
-        <section id="Link">
+    <section id="Links">
             <!-- Here starts the Learning HTML section-->
             <h1 class="divhead">&nbsp; Learning Link in <abbr title="Hyper Text Markup Language">HTML</abbr> </h1>
 
             <p class="sub-main-heading2"> We are going to start with an examples</p><br><br>
-
+    
             
             <!-- Here starts the paragraph of Learning HTML section-->
             <p>
@@ -664,19 +486,14 @@ html{
 
                         </li>
                     </section>
-        </div>
 
-                </ul>
-
-
-
-
+            </ul>
             </ol>
             </p>
         </section>
         <p>
 
-
+            <section id="images">
         <h1 class="divhead">Add Image to HTML Page</h1>
         <div class="sub-main-heading3">
 
@@ -772,11 +589,10 @@ html{
         </ol>
 
         <br>&nbsp;
-        </p>
         </div>
+        </section>
 
-
-        <section id="table">
+        <section id="Tables">
             <p>
             <h1 class="divhead">Adding Table to HTML page</h1>
             <div class = "sub-main-heading3">
@@ -1047,10 +863,9 @@ html{
             </aside>
             </div>
             </p>
-            </p>
         </section>
         <!-- Forms is HTML -->
-        <section id="forms">
+        <section id="Forms">
             <p>
             <h1 class="divhead">Forms in HTML</h1>
             <div class = "sub-main-heading3" >
@@ -1217,8 +1032,9 @@ html{
                <br> &lt;input type="checkbox" id="others" name="Where do you found about this project?" value="others"&gt;
                <br> &lt;label for="others"&gt;Others&lt;/label&gt;
                 <br>&lt;/form&gt;
+                </p>
             </code>
-        </p>
+        
 
                 </li>
                 <li>
@@ -1243,8 +1059,8 @@ html{
                     <br>
                     <code>&lt;button type="reset"&gt;Reset&lt;/button&gt;</code>
                 </li>
-            </ul>
-            </div>
+            
+            
         </section>
         <!-- Complete Form for user interaction-->
         <section id="compform">
@@ -1281,7 +1097,7 @@ html{
             </p>
         </section>
 
-        </p>
+        
         <section id="videos">
             <p>
                 <div class = "sub-main-heading3">
@@ -1310,7 +1126,7 @@ html{
             <br><code>&lt;video src="img/videohtmlpage.mp4" width="200px" height="120px" type="video/mp4"&gt;example video&lt;/video&gt;</code>
 
             </p>
-        </div>
+        
 
         </section>
 
@@ -1392,7 +1208,7 @@ html{
                 </li>
             </ul>
             </p>
-        </div>
+        
         </section>
 
         <!--To the contributors adding info further, please add above this pdf as cheatsheet should remain at last for reference purposes -->
@@ -1413,29 +1229,9 @@ html{
 
 
 
-        <script>
 
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-   var heading = document.getElementById("p-heading");
-   heading.classList.toggle("p-dark");
-
-   var heading2 = document.getElementById("p-heading2");
-   heading2.classList.toggle("p-dark");
-}
-        function w3_open() {
-            document.getElementById("mySidebar").style.display = "block";
-        }
-        function w3_close() {
-            document.getElementById("mySidebar").style.display = "none";
-        }
-
-        
-        </script>
 </body>
 
-</div>
 <footer>
     <nav>
         <a href="#">Go back to Top</a>

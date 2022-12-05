@@ -1,15 +1,205 @@
-html {
-    font-size: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&family=M+PLUS+1:wght@700&family=Oxygen:wght@300;400&family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: white;
-    color: black;
-    
-    /* font-family: "Lucida Console", "Courier New", monospace; */
-    /* font-family: Arial, Helvetica, sans-seri; */
-    font-family: "Times New Roman", Times, serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
+
+
+
+#main-nav-bar{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  
+}
+
+#main-nav-bar-child1{
+  width: 30%;
+  
+}
+
+#main-nav-bar-child2{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.dark-mode {
+  background-color: #010201;
+  color: white;
+}
+
+.headingdefined {
+  font-size: 25px;
+}
+
+.divhead {
+  font-size: 40px;
+  margin: 30px 0px;
+  padding: 0 10px;
+}
+
+.main-heading {
+  display: inline-block;
+  padding: 0 80px;
+  /* font-weight: bolder; */
+}
+
+.sub-main-heading {
+  font-size: 40px;
+  padding: 0 15px;
+}
+
+.button1 {
+  color: white;
+  background-color: #333333;
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+  top: -10px;
+  border-radius: 15px;
+}
+
+
+
+.head {
+  margin: 2rem;
+  width: 40%;
+}
+
+
+.head-color {
+  color: #2899f5;
+}
+
+.code {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.container {
+  font-size: 24px;
+  margin: 30px 0px;
+}
+
+.code2 {
+  padding: 0 20px;
+  background-color: #333333;
+  color: white;
+  height: 70px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.code6 {
+  padding: 0 20px;
+  background-color: #333333;
+  color: white;
+  height: 280px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.code3 {
+  background-color: #333333;
+  color: white;
+  padding: 0 20px;
+  border-radius: 5px;
+
+  height: 140px;
+}
+
+.code4 {
+  height: 180px;
+  color: white;
+  border-radius: 5px;
+
+  background-color: #333333;
+}
+
+.code5 {
+
+  height: 250px;
+  color: white;
+  border-radius: 5px;
+
+  background-color: #333333;
+}
+
+.output {
+  background-color: antiquewhite;
+
+}
+
+.sub-main-heading2 {
+  font-size: 30px;
+  padding: 0 0px;
+}
+
+.btn-hamburger {
+  position: absolute;
+  opacity: 1;
+}
+
+.content {
+  padding: 40px;
+  margin: 40px;
+}
+
+.dltag {
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+.desc-list {
+  font-size: 20px;
+}
+
+.ul-shift {
+  padding: 0 30px;
+}
+
+.darkMode {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.sub-main-heading3 {
+  font-size: 20px;
+}
+
+.shift-li {
+  padding: 0 14px;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.zoom {
+  transition: transform .3s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
 
 content{
   margin-top: 100px;
@@ -35,71 +225,7 @@ content{
 
     
 }
-/* this is for heading layout */
-#NavigationBar{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  width: 100%; 
-  max-width:100%; 
-  height:auto;
-  background-color: white;
-  color: black;
-  font-size: medium;
-  font-variant: small-caps;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: right;
-  cursor: pointer;
-  vertical-align: baseline;
-  /***********************************************************************************/
-  /* Changes by Ritu Thakur  */
-}
-/* height : 100% ; 
-position : fixed ; 
-right : 0 ; 
-top : 76px ; 
-width : 250px ; 
-margin-top: 60px;
-background-color: rgb(185, 34, 34);
 
-}
-.toogle-button {
-  position: absolute;
-  top:.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px ;
-  height: 21px;
-}
-.menu.active{
-  display: flex;
-}
-
-.toogle-button .bar{
-  height: 3px;
-  width: 100% ; 
-  background-color: #02110c;
-  border-radius: 10px;
-}
-.menu{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.menu li {
-  color: rgb(237, 237, 245);
-    border-bottom: 8px;
-    padding-left: 20px;
-    padding-top: 8px;
-}
-.menu li a {
-  color : #d3d39cde; 
-  display: block ;
-  text-decoration: none;
-}
 
 /* thi is for links */
 a:link{
@@ -116,14 +242,7 @@ a:hover {
 } 
 
 
-/* this is for heading h2 */
 
-/* h1{
-  
-  font-weight: bold;
-} */
-
-/* customizing headings content */
 .divhead{
   
   border-left: medium outset crimson;
@@ -168,6 +287,99 @@ table, th, td {
 
 
   /* 
+  EXTRA CODE
+
+
+
+    /* this is for heading layout
+  #NavigationBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%; 
+    max-width:100%; 
+    height:auto;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    cursor: pointer;
+    vertical-align: baseline;}
+    /***********************************************************************************/
+    /* Changes by Ritu Thakur  */
   
+    /* height : 100% ; 
+  position : fixed ; 
+  right : 0 ; 
+  top : 76px ; 
+  width : 250px ; 
+  margin-top: 60px;
+  background-color: rgb(185, 34, 34);
+  
+  }
+  .toogle-button {
+    position: absolute;
+    top:.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px ;
+    height: 21px;
+  }
+  .menu.active{
+    display: flex;
+  }
+  
+  .toogle-button .bar{
+    height: 3px;
+    width: 100% ; 
+    background-color: #02110c;
+    border-radius: 10px;
+  }
+  .menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu li {
+    color: rgb(237, 237, 245);
+      border-bottom: 8px;
+      padding-left: 20px;
+      padding-top: 8px;
+  }
+  .menu li a {
+    color : #d3d39cde; 
+    display: block ;
+    text-decoration: none;
+  }
     
-  */
+
+
+/* this is for heading h2 */
+
+/* h1{
+  
+  font-weight: bold;
+} */
+
+/* customizing headings content */
+
+
+
+
+/* body {
+    background-color: white;
+    color: black;
+    
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+/* font-family: Arial, Helvetica, sans-seri; */
+/* font-family: "Times New Roman",
+Times,
+serif;
+} */
+
+
