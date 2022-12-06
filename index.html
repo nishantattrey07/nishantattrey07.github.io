@@ -1,1242 +1,1603 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/80b9608b03.js" crossorigin="anonymous"></script>
-    <title>Learning HTML</title>
-    <link rel="stylesheet" href="pages/main.css" type="text/css">
-    <link rel="icon" href="img/html5.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/80b9608b03.js"
+            crossorigin="anonymous"></script>
+        <title>Learning HTML</title>
+        <link rel="stylesheet" href="pages/main.css" type="text/css">
+        <link rel="icon" href="img/html5.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-<body>
+    <body>
 
-<div id="main-nav-bar">
-    <div id="main-nav-bar-child1">
-        <h1>Learning Web-Dev <i
-            class="fa-solid fa-code" id = "night"></i></h1>
-    </div>
-    <div id="main-nav-bar-child2">
-        <a href="#Headings" class="w3-bar-item w3-button" style="color:black;">Headings</a> <br>
-  <a href="#Lists" class="w3-bar-item w3-button" style="color:black;">Lists</a> <br>
-  <a href="#Links" class="w3-bar-item w3-button " style="color:black;">Links</a> <br>
-  <a href="#Tables" class="w3-bar-item w3-button " style="color:black;">Tables</a> <br>
-  <a href="#Forms" class="w3-bar-item w3-button " style="color:black;">Forms</a><br>
-  <a href="#videos" class="w3-bar-item w3-button " style="color:black;">Adding Videos</a><br>
-  <a href="#audios" class="w3-bar-item w3-button " style="color:black;">Adding Audios</a><br>
-  <a href="#text-formatting" class="w3-bar-item w3-button " style="color:black;">Text Formatting</a><br>
-    </div>
-
-</div>
-
-
-
-
-
-
-    <div class="content">
-
-
-            <p>
-            <h1 class="sub-main-heading">Introduction</h1>
-          </p>
-
-        <p>
-        <section id="Headings">
-            <p>
-            <h1 class="divhead">Text Basic</h1> <br>
-
-            <h2 class="headingdefined"> HTML have six type of Headings:</h2> <br>
-            <div class="headpad">
-                <ol class="divhead1">
-                    <li>
-                        <h1 class = "head">Heading One (H1)</h1>
-                        <p class="code"><br><code><span class = "head-color">&lt;h1&gt;</span>Heading One (h1)<span class = "head-color">&lt;/h1&gt;</span></code></p>
-
-                    </li>
-
-                    <li>
-                        <h2 class = "head">Heading Two (H2)</h2>
-                        <p class="code"><br><code><span class = "head-color">&lt;h2&gt;</span>Heading Two (h2)<span class = "head-color">&lt;/h2&gt;</span></code></p>
-
-
-                    </li>
-                    <li>
-                        <h3 class = "head">Heading Three (H3)</h3>
-                        <p class="code"><br><code><span class = "head-color">&lt;h3&gt;</span>Heading Three (h3)<span class = "head-color">&lt;/h3&gt;</span></code></p>
-
-                    </li>
-                    <li>
-                        <h4 class = "head">Heading Four (H4)</h4>
-                        <p class="code"><br><code><span class = "head-color">&lt;h4&gt;</span>Heading Four (h4)<span class = "head-color">&lt;/h4&gt;</span></code></p>
-
-
-                    </li>
-                    <li>
-                        <h5 class = "head">Heading Five (H5)</h5>
-                        <p class="code"><br><code><span class = "head-color">&lt;h5&gt;</span>Heading Five (h5)<span class = "head-color">&lt;/h5&gt;</span></code></p>
-
-
-                    </li>
-                    <li>
-                        <h6 class = "head">Heading Six (H6)</h6>
-                        <p class="code"><br><code><span class = "head-color">&lt;h6&gt;</span>Heading Six (h6)<span class = "head-color">&lt;/h6&gt;</span></code></p>
-
-
-                    </li>
-                </ol>
+        <div id="main-nav-bar">
+            <div id="main-nav-bar-child1">
+                <h1>Learning Web-Dev <i
+                        class="fa-solid fa-code" id="night"></i></h1>
             </div>
-            </p>
-
-            <div class = "container">
-                <p>
-                    Here above I have dislayed how different headings work in <abbr
-                        title="Hyper Text Markup Language">html</abbr>
-                    <br>&nbsp;
-                    <br> Now let me talk about, How to write paragraphs?
-                    I have already told you about the body of the <abbr title="Hyper Text Markup Language">html</abbr>
-                    how
-                    everything is
-                    written. so, lets start
-                    <br>&nbsp;
-                    <br> You will use
-                <p class="code2"><br><code>
-                        <span class="head-color">&lt;p&gt; </span>Productive day kise kehte hai? <span class="head-color"> &lt;/p&gt; </span>
-                    </code></p>
-                <br> it will be shown like this
-                <br>&nbsp;
-                <p class="output">Productive day kise kehte hai?</p>
-                <br>&nbsp;
-                <br>Do Give your answer :)
-                <br>&nbsp;
-                <br>Now Let me tell you about another term <strong>&lt;address&gt;&lt;/address&gt;</strong>
-                <br>&nbsp;
-                <br> for example
-                <p class="code2"><br><code> <span class="head-color">&lt;address&gt;</span>INDIA <span class="head-color"> &lt;/address&gt; </span></code></p>
-                <br>&nbsp;
-                <br>this will be diplayed as:
-                <br>&nbsp;
-                <br>
-                <address class = "output">INDIA</address>
-                <br>&nbsp;
-                </p>
+            <div id="main-nav-bar-child2">
+                <a href="#Headings" id="nav-bar-link">Headings</a> <br>
+                <a href="#Lists" id="nav-bar-link">Lists</a> <br>
+                <a href="#Links" id="nav-bar-link">Links</a> <br>
+                <a href="#Tables" id="nav-bar-link">Tables</a> <br>
+                <a href="#Forms" id="nav-bar-link">Forms</a><br>
+                <a href="#videos" id="nav-bar-link">Adding Videos</a><br>
+                <a href="#audios" id="nav-bar-link">Adding Audios</a><br>
+                <a href="#text-formatting" id="nav-bar-link">Text Formatting</a><br>
             </div>
-        </section>
-        <section id="Lists">
+
+        </div>
+
+
+
+
+
+
+        <div class="content">
+
+
             <p>
-
-            <h1 class="divhead">&nbsp; Lets talk about List types</h1>
-            <h3> <abbr title="Hyper Text Markup Language">HTML</abbr> has Ordered List, Unordered List,and description
-                List</b></h3>
-            <ol>
-                <li>
-                    <h3> Ordered List </h3>
-                    <p class="code3">
-                        <code>
-                        <br> <span class="head-color">&lt;ol&gt;</span>
-                        <br> <span class="head-color">&lt;li&gt;</span> First Item <span class="head-color">&lt;/li&gt;</span>
-                        <br> <span class="head-color">&lt;li&gt;</span> Second Item <span class="head-color">&lt;/li&gt;</span>
-                        <br> <span class="head-color">&lt;li&gt;</span> Third Item <span class="head-color">&lt;/li&gt;</span>
-                        <br><span class="head-color">&lt;/ol&gt;</span>
-                    </code>
-                    </p>
-                    <div class="sub-main-heading3">
-                    <br>
-                    <br> Output:
-                    <br>&nbsp;
-                    <ol>
-                        <div class="output">
-                            <li class = "shift-li">1. &nbsp First Item</li>
-                            <li class = "shift-li">2. &nbsp Second Item</li>
-                            <li class = "shift-li">3. &nbsp Third Item</li>
-                        </div>
-                    </ol>
-                </div>
-                <br><br>
-                </li>
-                <li>
-                    <h3>UnOrdered List </h3>
-                    <p class="code3">
-                        <code>
-                        <br> <span class="head-color">&lt;ul&gt;</span>
-                        <br> <span class="head-color">&lt;li&gt;</span> First Item <span class="head-color">&lt;/li&gt;</span>
-                        <br> <span class="head-color">&lt;li&gt;</span> Second Item <span class="head-color">&lt;/li&gt;</span>
-                        <br> <span class="head-color">&lt;li&gt;</span> Third Item <span class="head-color">&lt;/li&gt;</span>
-                        <br> <span class="head-color">&lt;/ul&gt;</span>
-                 </code>
-                    </p>
-                    <br>
-                    <div class="sub-main-heading3">
-
-                        <br>Output:
-                        <br>&nbsp;
-                        <div class="output">
-                        <ul class="ul-shift">
-                            <li>First item</li>
-                            <li>Second item</li>
-                            <li>Third item</li>
-                        </ul>
-                    </div>
-                    <br><br>
-                </div>                    
-
-                    </li>
-                <li>
-                    <h3>Description List</h3>
-                    <p class="code4">
-                        <code>
-                <br> <span class = "head-color"> &lt;dl&gt;</span>
-                <br> <span class = "head-color">&lt;dt&gt;</span>Math<span class = "head-color"> &lt;/dt&gt;</span>
-                <br><span class = "head-color"> &lt;dd&gt;</span>-amazing subject<span class = "head-color">&lt;/dt&gt;</span>
-                <br><span class = "head-color">&lt;dt&gt;</span>Computer<span class = "head-color">&lt;/dt&gt;</span>
-                <br><span class = "head-color">&lt;dd&gt;</span>-I love it<span class = "head-color">&lt;/dt&gt;</span>
-                <br><span class = "head-color">&lt;/dl&gt;</span>
-                </code>
-                    </p>
-                    <div class="desc-list">
-                    <br>&nbsp;
-                    <br>Output:
-                    <br>&nbsp;
-                    <div class="output">
-                        <dl class = "dltag">
-                            <dt>Math</dt>
-                            <dd>&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp -amazing subject</dd>
-                            <dt>Computer</dt>
-                            <dd>&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp-I love it</dd>
-                        </dl>
-                        
-                    </div>
-                </div>
-                <br><br>
-
-                </li>
-            </ol>
-            </p>
-
-        </section>
-
-
-
-
-    <section id="Links">
-            <!-- Here starts the Learning HTML section-->
-            <h1 class="divhead">&nbsp; Learning Link in <abbr title="Hyper Text Markup Language">HTML</abbr> </h1>
-
-            <p class="sub-main-heading2"> We are going to start with an examples</p><br><br>
-    
-            
-            <!-- Here starts the paragraph of Learning HTML section-->
-            <p>
-                <!-- Using Order List to number the ANCHOR TAG though it could be neglected -->
-            <ol>
-
-                <li class = "sub-main-heading3"><strong>Anchor Tag</strong> - This is used to insert a link of another page.
-                    <br>&nbsp;
-                    <!-- Using UnOrder List to mark the ANCHOR TAG subsection -->
-                    <ul>
-
-                        <!-- Using section for navigation control, this one is for Absolute Refernce Section-->
-                        <section id="absolute">
-                            <li><b>Using Absolute Reference</b>
-                                <br> We are going to use full link therefore, this will be called as <b>ABSOLUTE
-                                    REFERENCE</b>
-                                <br>
-                                <br>For example->&nbsp; You have to link a google page in your html page, so thi is how
-                                you will
-                                do. <br>
-                                <p class="code2">
-                                    <br><span class="head-color">&lt; a </span> &nbsphref="https://www.google.com/">Google <spans class="head-color">&lt;/a&gt;</spans</code>
-                                </p>
-                                <br>Here in href you will paste the link and after closing it by ">" you have to write
-                                the text
-                                you want to insert link in.
-                                <br>
-                                <br>This is how the above example will look in your html page
-                                <br>
-                                <br><p class = "output"> <a href="https://www.google.com/">Google</a></p>
-
-                                <br>&nbsp;
-                            </li>
-                        </section>
-                    </ul>
-                </li>
-            </ol>
+                <h1 class="sub-main-heading">Introduction</h1>
             </p>
 
             <p>
-            <ol>
-                <ul>
-                    <!-- Using section for navigation control, this one is for Relative Refernce Section-->
-                    <section id="RelativeReference">
-                        <div class = "sub-main-heading3">
-                        <li><b>Using Relative Reference</b>
-                            <br>In this we will link the page which is in same server without giving any link.
-                            <br>Create a file with extension ".html"
-                            <br>
-                            <br>For example- I am going to use socialhandels.html
-                            <br>&nbsp;
-                            <p class="code2">
-                                <br><code><span class = "head-color">&lt;a </span>href="socialhandels.html">socialhandels <span class = "head-color">&lt;/a&gt;</span></code>
-                            </p>
-                            Here in href you name the file(file should be in same server) and after closing it by
-                            ">" you
-                            have to write the text you want to insert that page in.
-                            <br>
-                            <br><p class = "output"><a href="pages/socialhandels.html">Socialhandels</p></a>
-                            <br>&nbsp;<br><br>
+                <section id="Headings">
+                    <p>
+                        <h1 class="divhead">Text Basic</h1> <br>
 
-                        </li>
-                        </div>
-                    </section>
-                </ul>
-            </ol>
-            </p>
-
-
-            <p>
-            <ol>
-                <ul>
-
-                    <!-- Using section for navigation control, this one is for making navigation control in HTML file-->
-                    <section id="navigation">
-                        <div class = "sub-main-heading3">
-                        <li>
-                            <b>Using Anchor to Navigate through HTML Page</b>
-                            <br>Now you might have seen that when web page is big you get the navigation system to
-                            navigate
-                            through different topics, we are going to do same using HTML.
-                            <br>
-                            <!-- yha image insert kario example ke lie -->
-                            <br>For example- You are reading on this page and now you want to directly jump to <b>List
-                                Types in
-                                HTML</b> Topic.
-                            <br>
-                            <br>So this is how you will do
-                            <br>
-                            <br>
-                            <figure>
-                                <img src="img/listnav.png" alt="picture of list types code encloed
-                             in section element with id Lists" width="320" height="104" loading="lazy">
-                            </figure>
-                            <figcaption>
-                                <caption>
-                                    Use section for using navigation and don't
-                                    forget to give id
-                                </caption>
-                                <br>
-                                <caption>
-                                    All the code of List(section) should
-                                    be inside &lt;section id=""&gt;&lt;/section&gt;
-                                </caption>
-                            </figcaption>
-                            <br>Now after completing the above instructions we have to add navigation section using
-                            &lt;nav&gt;&lt;/nav&gt; element
-                            <br>
-                            <br><code>
-                        &lt;nav&gt;
-                        <br>
-                        <!-- ignore <br> I have used this only so that format of code on page look good.-->
-                           <br> &lt;a href="#Lists"&gt;List Types&lt;/a&gt;
-                           <br>
-                        <br>&lt;/nav&gt;
-                    </code>
-                            <br>
-                            <br>Don't forget to add "#" while calling the element
-                            <br>
-                            <br>This is how this code will work
-                            <br>
-                            <br>
-                            <nav>
-                                <a href="#Lists">List Types</a>
-                            </nav>
-                            <br>Now to experience how this navigation work i am adding navigation control here try it
-                            your self.
-                            <br>&nbsp;
-                            <!--Here we use <nav></nav> to start navigation-->
-                            <figure>
-                                <img src="img/navpanel.png" alt="Code for nav panel" width="544" height="486"
-                                    loading="lazy">
-                            </figure>
-                            <figcaption>
-                                <caption>
-                                    This is the code I have used for navigation panel.
-                                </caption>
-                            </figcaption>
-                            <br><strong>To go back to top you have to use only "#" while calling an id, without
-                                declairing
-                                it.</strong>
-                            <br>&nbsp;
-                            <nav>
-                                <!--Using UnOrder List for better format-->
-                                <ul>
-                                    <li>
-                                        <a href="#absolute">Absolute Reference</a>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <a href="#RelativeReference">Relative Reference</a>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <a href="#">Back To Top</a>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <a href="#download">Download</a>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <a href="#contacts">Contact</a>
-                                    </li>
-                                </ul>
-
-                            </nav>
-                        </li>
-                    </div>
-
-                    </section>
-                    <br>&nbsp;
-                </ul>
-            </ol>
-            </p>
-            <div class = "sub-main-heading3">
-            <p>
-            <ol>
-                <ul>
-                    <!-- Using section for download image, this one is for making download file function in HTML file-->
-                    <section id="download">
-                        <li><b>Set a file or image to be downloaded from user</b>
-                            <br>Here I will tell you how you can make your user to access some of your files and
-                            download them.
-                            <br>
-                            <br>For example- you want to make your user to download an image then you can use Anchor Tag
-                            for
-                            this(Image should be present in your server)
-                            <br>
-                            <br>lets say you want to make your user access or download Thankyou.jpeg, you will use this:
-                            <p class = "code2">
-                            <br><code> <span class = "head-color"> &lt;a </span> href="Thankyou.jpeg" download&gt;download image here <span class = "head-color">&lt;/a&gt;</span>
-                    </code>
-                </p>
-
-                            <br>
-                            <p class = "output">
-                            <br><a  href="img/thankshomie.jpeg" download>Download image here</a><br>    
-                        </p>
-
-                            <br>&nbsp;
-                        </li>
-                    </section>
-                </ul>
-            </ol>
-            </p>
-
-            <p>
-            <ol>
-                <ul>
-                    <!--Add Contact to your HTML page-->
-                    <section id="contacts">
-                        <li>
-                            <b>Add Contact option which redirect them directly to respected apps</b>
-                            <br>&nbsp;
-                            <ol>
+                        <h2 class="headingdefined"> HTML have six type of
+                            Headings:</h2> <br>
+                        <div class="headpad">
+                            <ol class="divhead1">
                                 <li>
-                                    <b>MAIL</b>
-                                    <br>You can add mail to your HTML Page
-                                    <br>
-                                    <br>Code-
-                                    <br>
-                                    <p class = "code2">
-                                    <br><code><span class = "head-color"> &lt;a </span> href="mailto:example@gmail.com">Mail me <span class = "head-color">&lt;/a&gt;</span>
-                                    </p>
-                            </code>
-                                    <br>
-                                    <br>Here this is how it will show on Page
-                                    <br>
-                                    <p class = "output">
-                                    <br><a href="mailto:nishantattrey07@gmail.com">Mail me</a></p> 
+                                    <h1 class="head">Heading One (H1)</h1>
+                                    <p class="code"><br><code><span class="head-color">&lt;h1&gt;</span>Heading
+                                            One (h1)<span class="head-color">&lt;/h1&gt;</span></code></p>
                                 </li>
-                                <br>&nbsp;
+
                                 <li>
-                                    <b> PHONE NUMBER</b>
-
-                                    <br>You can add phone number to your HTML Page
-                                    <br>
-                                    <br>Code-
-                                    <br>
-                                    <p class = "code2">
-                                    <br><code><span class = "head-color">&lt;a </span> href="tel:+919958675577">Phone number <span class = "head-color">&lt;/a&gt;</span></code>
-                                </p>
-
-                                    
-                                    Here this is how it will show on Page
-                                
-                                    <p class = "output">
-
-                                    <br> <a href="tel:+919958675577"> Phone number</a>
-                                </p>
-                                <br> <br> <br>
-
-
+                                    <h2 class="head">Heading Two (H2)</h2>
+                                    <p class="code"><br><code><span class="head-color">&lt;h2&gt;</span>Heading
+                                            Two (h2)<span class="head-color">&lt;/h2&gt;</span></code></p>
+                                </li>
+                                <li>
+                                    <h3 class="head">Heading Three (H3)</h3>
+                                    <p class="code"><br><code><span class="head-color">&lt;h3&gt;</span>Heading
+                                            Three (h3)<span class="head-color">&lt;/h3&gt;</span></code></p>
+                                </li>
+                                <li>
+                                    <h4 class="head">Heading Four (H4)</h4>
+                                    <p class="code"><br><code><span class="head-color">&lt;h4&gt;</span>Heading
+                                            Four (h4)<span class="head-color">&lt;/h4&gt;</span></code></p>
+                                </li>
+                                <li>
+                                    <h5 class="head">Heading Five (H5)</h5>
+                                    <p class="code"><br><code><span class="head-color">&lt;h5&gt;</span>Heading
+                                            Five (h5)<span class="head-color">&lt;/h5&gt;</span></code></p>
+                                </li>
+                                <li>
+                                    <h6 class="head">Heading Six (H6)</h6>
+                                    <p class="code"><br><code><span class="head-color">&lt;h6&gt;</span>Heading
+                                            Six (h6)<span class="head-color">&lt;/h6&gt;</span></code></p>
                                 </li>
                             </ol>
+                        </div>
+                    </p>
+
+                    <div class="container">
+                        <p>
+                            Here above I have dislayed how different headings
+                            work in <abbr
+                                title="Hyper Text Markup Language">html</abbr>
+                            <br>&nbsp;
+                            <br> Now let me talk about, How to write paragraphs?
+                            I have already told you about the body of the <abbr
+                                title="Hyper Text Markup Language">html</abbr>
+                            how
+                            everything is
+                            written. so, lets start
+                            <br>&nbsp;
+                            <br> You will use
+                            <p class="code2"><br><code>
+                                    <span class="head-color">&lt;p&gt; </span>Productive
+                                    day kise kehte hai? <span
+                                        class="head-color"> &lt;/p&gt; </span>
+                                </code></p>
+                            <br> it will be shown like this
+                            <br>&nbsp;
+                            <p class="code">Productive day kise kehte hai?</p>
+                            <br>&nbsp;
+                            <br>Do Give your answer :)
+                            <br>&nbsp;
+                            <br>Now Let me tell you about another term <strong>&lt;address&gt;&lt;/address&gt;</strong>
+                            <br>&nbsp;
+                            <br> for example
+                            <p class="code2"><br><code> <span
+                                        class="head-color">&lt;address&gt;</span>INDIA
+                                    <span class="head-color"> &lt;/address&gt;
+                                    </span></code></p>
+                            <br>&nbsp;
+                            <br>this will be diplayed as:
+                            <br>&nbsp;
+                            <br>
+                            <address class="code">INDIA</address>
+                            <br>&nbsp;
+                        </p>
+                    </div>
+                </section>
+                <section id="Lists">
+                    <p>
+
+                        <h1 class="divhead">&nbsp; Lets talk about List types</h1>
+                        <h3> <abbr title="Hyper Text Markup Language">HTML</abbr>
+                            has Ordered List, Unordered List,and description
+                            List</b></h3>
+                    <ol>
+                        <li>
+                            <h3> Ordered List </h3>
+                            <p class="code3">
+                                <code>
+                                    <br> <span class="head-color">&lt;ol&gt;</span>
+                                    <br> <span class="head-color">&lt;li&gt;</span>
+                                    First Item <span class="head-color">&lt;/li&gt;</span>
+                                    <br> <span class="head-color">&lt;li&gt;</span>
+                                    Second Item <span class="head-color">&lt;/li&gt;</span>
+                                    <br> <span class="head-color">&lt;li&gt;</span>
+                                    Third Item <span class="head-color">&lt;/li&gt;</span>
+                                    <br><span class="head-color">&lt;/ol&gt;</span>
+                                </code>
+                            </p>
+                            <div class="sub-main-heading3">
+                                <br>
+                                <br> code:
+                                <br>&nbsp;
+                                <ol>
+                                    <div class="code">
+                                        <li class="shift-li">1. &nbsp First Item</li>
+                                        <li class="shift-li">2. &nbsp Second
+                                            Item</li>
+                                        <li class="shift-li">3. &nbsp Third Item</li>
+                                    </div>
+                                </ol>
+                            </div>
+                            <br><br>
+                        </li>
+                        <li>
+                            <h3>UnOrdered List </h3>
+                            <p class="code3">
+                                <code>
+                                    <br> <span class="head-color">&lt;ul&gt;</span>
+                                    <br> <span class="head-color">&lt;li&gt;</span>
+                                    First Item <span class="head-color">&lt;/li&gt;</span>
+                                    <br> <span class="head-color">&lt;li&gt;</span>
+                                    Second Item <span class="head-color">&lt;/li&gt;</span>
+                                    <br> <span class="head-color">&lt;li&gt;</span>
+                                    Third Item <span class="head-color">&lt;/li&gt;</span>
+                                    <br> <span class="head-color">&lt;/ul&gt;</span>
+                                </code>
+                            </p>
+                            <br>
+                            <div class="sub-main-heading3">
+
+                                <br>code:
+                                <br>&nbsp;
+                                <div class="code">
+                                    <ul class="ul-shift">
+                                        <li>First item</li>
+                                        <li>Second item</li>
+                                        <li>Third item</li>
+                                    </ul>
+                                </div>
+                                <br><br>
+                            </div>
 
                         </li>
-                    </section>
+                        <li>
+                            <h3>Description List</h3>
+                            <p class="code4">
+                                <code>
+                                    <br> <span class="head-color"> &lt;dl&gt;</span>
+                                    <br> <span class="head-color">&lt;dt&gt;</span>Math<span
+                                        class="head-color"> &lt;/dt&gt;</span>
+                                    <br><span class="head-color"> &lt;dd&gt;</span>-amazing
+                                    subject<span class="head-color">&lt;/dt&gt;</span>
+                                    <br><span class="head-color">&lt;dt&gt;</span>Computer<span
+                                        class="head-color">&lt;/dt&gt;</span>
+                                    <br><span class="head-color">&lt;dd&gt;</span>-I
+                                    love it<span class="head-color">&lt;/dt&gt;</span>
+                                    <br><span class="head-color">&lt;/dl&gt;</span>
+                                </code>
+                            </p>
+                            <div class="desc-list">
+                                <br>&nbsp;
+                                <br>code:
+                                <br>&nbsp;
+                                <div class="code">
+                                    <dl class="dltag">
+                                        <dt>Math</dt>
+                                        <dd>&nbsp &nbsp&nbsp &nbsp&nbsp
+                                            &nbsp&nbsp &nbsp -amazing subject</dd>
+                                        <dt>Computer</dt>
+                                        <dd>&nbsp &nbsp&nbsp &nbsp&nbsp
+                                            &nbsp&nbsp &nbsp-I love it</dd>
+                                    </dl>
 
-            </ul>
-            </ol>
-            </p>
-        </section>
-        <p>
+                                </div>
+                            </div>
+                            <br><br>
 
-            <section id="images">
-        <h1 class="divhead">Add Image to HTML Page</h1>
-        <div class="sub-main-heading3">
-
-        Now you might want to add images too in your html page like i have done above, So lets go
-        <br>
-        <br><code>
-            <p class = "code">
-                    <span class= "head-color">&lt;img </span>src="img/img.png" alt="Showing how to add image to HTML Page" width="378" height="353" loading="lazy"<span class= "head-color">&gt;</span>
-                </p>
-
-                </code>
-        <br>&nbsp;
-        <br>This is what the result will be
-        <br>&nbsp;
-        <div class="output">
-        <figure>
-            <br><img src="img/img.png" alt="Showing how to add image to HTML Page" width="440" height="178"
-                loading="lazy">
-        </figure>
-        <figcaption>
-            <br>
-        </div>
-            <caption>This is caption of an image
-            </caption>
-
-        </figcaption>
-        <br>Image given above is an examle of adding image with caption to HTML.
-        <br>There are many elements we can use in &lt;img&gt;
-        <br>I will be listing some of them.
-        <ol>
-            <li>
-                <b>alt </b>
-                <br> The alt attribute specifies an alternate text for an area, if the image cannot be
-                displayed. The alt attribute provides alternative information for an image if a user for some
-                reason cannot view it because of slow connection, an error in the src attribute, or if the user
-                uses a screen reader.
-                <br>
-                <br>You can see in the above image, the alt attribute I have used.
-            </li>
-            <br>
-            <li>
-                <b>width,height</b>
-                <br>The height and width properties are used to set the height and width of an element. The
-                height and width properties do not include padding, borders, or margins.
-                <br>
-                <br> Well this was like googled answer but why we really need to give width and height?
-                <br>&nbsp;&nbsp;We give width and height of an image because of cumulative layout shift.
-                <br>
-                <br><b>What is cumulative layout shift?</b>
-                <br>Well in simple word it helps how often users experience unexpected layout shifts. For more
-                insight on this you can refer to this article.
-                <br><a href="https://web.dev/cls/">cumulative layout shift</a>
-            </li>
-            <br>
-            <li>
-                <b>loading</b>
-                <br> The loading attribute specifies whether a browser should load an image immediately or to
-                defer loading of off-screen images, loading by default is active(loading="active") for example
-                the user scrolls near them. <b>Tip:</b> Add <b>loading="lazy" </b> only to images which are
-                positioned below the <b>fold</b>.
-                <br>
-                <br><b>What is fold?</b>
-                <br>Fold is the border line between the content you can see on your screen and the content you
-                can't which is present on same page. Simply put the part of website which will come on screen
-                after scrolling scroll bar is called below the fold. Now from this you can understand what is
-                fold.
-            </li>
-            <br>
-            <li>
-                <b>Caption</b>
-                <br>Caption is used to give a caption to a image here in the above image. you can see
-                &lt;caption&gt;&lt;/caption&gt; attribute under &lt;figcaption&gt; &lt;/figcaption&gt;
-                attribute.
-                <br><b>&lt;figcaption&gt;</b>The &lt;figcaption&gt; HTML element represents a caption or legend
-                describing the rest of the contents of its parent &lt;figure&gt; element.
-
-                <br>
-                <div class="code2">
-                <br><code>
-                            &lt;figure&gt;
-                            &lt;img src="img/img.png" alt="Showing how to add image to HTML Page" width="378" height="353" loading="lazy"&gt;
-                            &lt;/figure&gt;
-                            <br>&nbsp;
-                            <br> &lt;figcaption&gt;
-                                &lt;caption&gt;
-                                    This is caption of an image
-                                &lt;/caption&gt;
-                            &lt;figcaption&gt;
-                        </code>
-                </div>
-
-            </li>
-        </ol>
-
-        <br>&nbsp;
-        </div>
-        </section>
-
-        <section id="Tables">
-            <p>
-            <h1 class="divhead">Adding Table to HTML page</h1>
-            <div class = "sub-main-heading3">
-            In this section you will learn about how to add tables to your HTML page.
-            <br> What are the uses of tables in HTML?
-            <br><a
-                href="https://www.freecodecamp.org/news/html-tables-all-there-is-to-know-about-them-d1245980ef96/#:~:text=The%20HTML%20table%20is%20used,%E2%80%94%20basically%2C%20rows%20and%20columns.">
-                Google it</a>&nbsp;(:
-
-            <br>Table starts from &lt;table&gt;&lt;/table&gt; element
-            But as like table have many blocks- row, column,Table header, footer.I will talk about all of them.
-
-            <div>
-            <h4>Now I will show you how you can make table and add different elemnts in it using elements/tags like
-                &lt;table&gt; &lt;tr&gt; &lt;td&gt; </h4>
-
-            <!-- Table without CSS NO BORDERS -->
-            <aside>
-                <details>
-                    <summary>Table without using CSS(No borders)</summary>
-                    <figure>
-                        <img src="img/tablewithoutcss.png" alt="Table without CSS, NO borders" width="488" height="277">
-                    </figure>
-                </details>
-            </aside>
-
-
-            <aside>
-                <details>
-                    <summary>Table with css</summary>
-                    <table class="center">
-                        <caption><b> Useful Tags in HTML </b></caption>
-                        <thead>
-                            <tr>
-                                <th>
-                                    Tag
-                                </th>
-                                <th>
-                                    Description
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    &lt;table&gt;
-                                </td>
-                                <td>
-                                    Defines a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;th&gt;
-                                </td>
-                                <td>
-                                    Defines a header cell in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;tr&gt;
-                                </td>
-                                <td>
-                                    Defines a row in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;td&gt;
-                                </td>
-                                <td>
-                                    Defines a cell in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;caption&gt;
-                                </td>
-                                <td>
-                                    Defines a table caption
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;colgroup&gt;
-                                </td>
-                                <td>
-                                    Specifies a group of one or more columns in a table for formatting
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;col&gt;
-                                </td>
-                                <td>
-                                    Specifies column properties for each column within a &lt;colgroup&gt; element
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;thead&gt;
-                                </td>
-                                <td>
-                                    Groups the header content in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;tbody&gt;
-                                </td>
-                                <td>
-                                    Groups the body content in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    &lt;tfoot&gt;
-                                </td>
-                                <td>
-                                    Groups the footer content in a table
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </details>
-            </aside>
-            <!-- Adding colgroup  to table  -->
-            <br> &lt;Colgroup&gt; &lt;/Colgroup&gt; is used for adding a seecific feature to specific columns. In the
-            example
-            given below I have added new background colour to specific column (S.NO.)
-            <aside>
-                <details>
-                    <summary>
-                        Using Colgroup
-                    </summary>
-
-                    <table>
-                        <caption><b> Useful Tags in HTML </b></caption>
-                        <colgroup>
-                            <col span="1" style="background-color:grey;">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th>
-                                    S.NO.
-                                </th>
-                                <th>
-                                    Tag
-                                </th>
-                                <th>
-                                    Description
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>
-                                    &lt;table&gt;
-                                </td>
-                                <td>
-                                    Defines a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>2</td>
-                                <td>
-                                    &lt;th&gt;
-                                </td>
-                                <td>
-                                    Defines a header cell in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>3</td>
-                                <td>
-                                    &lt;tr&gt;
-                                </td>
-                                <td>
-                                    Defines a row in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>4</td>
-                                <td>
-                                    &lt;td&gt;
-                                </td>
-                                <td>
-                                    Defines a cell in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>5</td>
-                                <td>
-                                    &lt;caption&gt;
-                                </td>
-                                <td>
-                                    Defines a table caption
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>6</td>
-                                <td>
-                                    &lt;colgroup&gt;
-                                </td>
-                                <td>
-                                    Specifies a group of one or more columns in a table for formatting
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>7</td>
-                                <td>
-                                    &lt;col&gt;
-                                </td>
-                                <td>
-                                    Specifies column properties for each column within a &lt;colgroup&gt; element
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>8</td>
-                                <td>
-                                    &lt;thead&gt;
-                                </td>
-                                <td>
-                                    Groups the header content in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>9</td>
-                                <td>
-                                    &lt;tbody&gt;
-                                </td>
-                                <td>
-                                    Groups the body content in a table
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>10</td>
-                                <td>
-                                    &lt;tfoot&gt;
-                                </td>
-                                <td>
-                                    Groups the footer content in a table
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </details>
-            </aside>
-            </div>
-            </p>
-        </section>
-        <!-- Forms is HTML -->
-        <section id="Forms">
-            <p>
-            <h1 class="divhead">Forms in HTML</h1>
-            <div class = "sub-main-heading3" >
-
-            An HTML form is used to collect user input. The user input is most often sent to a server for processing.
-            <br>We start making form in HTML by <b> &lt;form&gt; &lt;/form&gt; </b>element
-            <br>&lt;form&gt; consist of input elements such as text fields, checkboxes, radio buttons,submit buttons,
-            etc.
-            <br>
-            <ul>
-                <li>
-                    <h3> &lt;input&gt; element </h3>
-                    The HTML &lt;input&gt; is the most used form element
-                    <br>
-                    <br>
-                    <table>
-
-                        <thead>
-                            <caption>Uage of input element
-                            </caption>
-                            <tr>
-                                <th>Type</th>
-                                <th>Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>&lt;input type="text"&gt;</td>
-
-                                <td>Displays a single-line text input field</td>
-                            </tr>
-                            <tr>
-                                <td>&lt;input type="radio"&gt;</td>
-                                <td> Displays a radio button (for selecting one of many choices)</td>
-                            </tr>
-                            <tr>
-                                <td>&lt;input type="checkbox"&gt;</td>
-                                <td> Displays a checkbox (for selecting zero or more of many choices)</td>
-                            </tr>
-                            <tr>
-                                <td>&lt;input type="submit"&gt;</td>
-                                <td> Displays a submit button (for submitting the form)</td>
-                            </tr>
-                            <tr>
-                                <td>&lt;input type="button"&gt;</td>
-                                <td>Displays a clickable button</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </li>
-                <br>
-                <li>
-                    <h3>&lt;label&gt; element</h3>
-                    <ol>
-                        <li>&lt;label&gt; tag defines a label for many form elements</li>
-                        <li>The &lt;label&gt; element is useful for screen-reader users</li>
+                        </li>
                     </ol>
-                </li>
-                <br>
-                Now using &lt;input&gt; and &lt;label&gt; I will make a part of a form
-                <br>&nbsp;
-                <form>
-                    <p class = "output">
-                    <label for="fname">First name:</label>
-                    <br><input type="text" id="fname" name="fname">
-                    <br><label for="lname">Last name:</label>
-                    <br><input type="text" id="lname" name="lname">
-                    
-                </form>
-            </p>
-                <br>&nbsp;
-                <br>The code I used to make this part of form
-                <br>
-                <br>
-                <p class = "code4">
-                <code>
-            &lt;form &gt;
-            <br>&lt;label for="fname"&gt;First name:&lt;/label&gt;
-           <br> &lt;br&gt;&lt;input type="text" id="fname" name="fname"&gt;
-          <br> &lt;br&gt;&lt;label for="lname"&gt;Last name:&lt;/label&gt;
-           <br> &lt;br&gt;&lt;input type="text" id="lname" name="lname"&gt;
-           <br>&lt;/form&gt;
-           </code>
-        </p>
-        <br>
-                <li>
-                    <h3>Radio Buttons</h3>
-                    <div class = "code">
-                    The &lt;input type="radio"&gt; defines a radio button.Radio buttons let a user select One of a
-                    limited
-                    number of choices.
-                </div>
-
-                <br>
-                    <p>Lets see how Radio button work...
-                        <br>
-                        <br>Will you contribute to this project?
-                        <br>
-                    <form>
-                        <p class = "output">
-                        <input type="radio" id="yes" name="Will you contribute to this project?" name="yes">
-                        <label for="yes">Yes</label>
-                        <input type="radio" id="no" name="Will you contribute to this project?" value="no">
-                        <label for="no">No</label>
-                        <input type="radio" id="notsure" name="Will you contribute to this project?" value="notsure">
-                        <label for="notsure">Not Sure</label>
-                    </p>
-
-                    </form>
-                    </p><br>
-
-                    Code for this:
-                    <br>
-                    <p class = "code5">
-                    <br><code>
-                    &lt;form &gt;
-                    &lt;input type="radio" id="yes" name="Will you contribute to this project?" name="yes"&gt;
-               <br> &lt;label for="yes"&gt;Yes&lt;/label&gt;
-               <br> &lt;input type="radio" id="no" name="Will you contribute to this project?" value="no"&gt;
-               <br> &lt;label for="no"&gt;No&lt;/label&gt;
-               <br> &lt;input type="radio" id="notsure" name="Will you contribute to this project?" value="notsure"&gt;
-               <br> &lt;label for="notsure"&gt;Not Sure&lt;/label&gt;
-               <br> &lt;/form&gt;
-                </code>
-            </p>
-
-                </li>
-                <li>
-                    <h3>Checkboxes</h3>
-                    The &lt;input type="checkbox"&gt; defines a checkbox.Checkboxes let a user select ZERO or MORE
-                    options
-                    of a
-                    limited number of choices.
-
-                    <p>Lets see how Checkbox work...</p>
-                        <br>
-                        <br>Where do you found about this project?
-                        <br>
-                        <form>
-                        <p class="output">
-                        <input type="checkbox" id="Github" name="Where do you found about this project?" value="Github">
-                        <label for="Gihub">Github</label>
-                        <input type="checkbox" id="twitter" name="Where do you found about this project?"
-                            value="twitter">
-                        <label for="twitter">Twitter</label>
-                        <input type="checkbox" id="discord" name="Where do you found about this project?"
-                            value="discord">
-                        <label for="discord">Discord Server</label>
-                        <input type="checkbox" id="others" name="Where do you found about this project?" value="others">
-                        <label for="others">Others</label>
-                    </p>
-                    </form><br><br>
-                    Code for this:
-                    <code>
-                        <p class = "code6">
-                        
-                &lt;form&gt;
-                <br>&lt;input type="checkbox" id="Github" name="Where do you found about this project?" value="Github"&gt;
-                <br>&lt;label for="Gihub"&gt;Github&lt;/label&gt;
-               <br> &lt;input type="checkbox" id="twitter" name="Where do you found about this project?" value="twitter"&gt;
-               <br> &lt;label for="twitter"&gt;Twitter&lt;/label&gt;
-                <br>&lt;input type="checkbox" id="discord" name="Where do you found about this project?" value="discord"&gt;
-               <br> &lt;label for="discord"&gt;Discord Server&lt;/label&gt;
-               <br> &lt;input type="checkbox" id="others" name="Where do you found about this project?" value="others"&gt;
-               <br> &lt;label for="others"&gt;Others&lt;/label&gt;
-                <br>&lt;/form&gt;
                 </p>
-            </code>
-        
 
-                </li>
-                <li>
-                    <h3>Submit Button</h3>
-                    The submit button is used for submitting the form data to a form-handler
-                    <br>
-                    <br><b>What is form-handler?</b>
-                    <br>The form-handler is a file on the server with a script for processing input data.
-                    form-handler is specified in the form's "action" attribute.
-                    <br>
-                    <br><button type="submit">Submit</button>
-                    <br>
-                    <br>Code for the Submit button
-                    <br><code>&lt;button type="submit"&gt;Submit&lt;/button&gt;</code>
-                </li>
-                <li>
-                    <h3>Reset Button</h3>
-                    Reset button is used for resetting the form
-                    <br>&nbsp;
-                    <br>
-                    <button type="reset">Reset</button>
-                    <br>
-                    <code>&lt;button type="reset"&gt;Reset&lt;/button&gt;</code>
-                </li>
-            
-            
-        </section>
-        <!-- Complete Form for user interaction-->
-        <section id="compform">
-            <p>
-            <h3>Now let's make a complete form </h3>
-            <fieldset>
+            </section>
 
-                <br>
-                <form action="mailto:nishantattrey07@gmail.com" method="post" id="aboutProject">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="Username" placeholder="Jack" autocomplete="on" required>
-                    <p>Will you contribute to the project?</p>
-                    <input type="radio" id="yes" name="Will you contribute" value="Yes">
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="Will you contribute" value="No">
-                    <label for="no">No</label>
-                    <input type="radio" id="notsure" name="Will you contribute" value="Not Sure">
-                    <label for="notsure">Not Sure</label>
-                    <br>
-                    <p>How you got to know about this project?</p>
-                    <input type="checkbox" id="Twitter" name="How you know about this project?" value="Twitter">
-                    <label for="Twitter">Twitter</label>
-                    <input type="checkbox" id="Github" name="How you know about this project?" value="Github">
-                    <label for="Github">Github</label>
-                    <input type="checkbox" id="Discord" name="How you know about this project?" value="Discord">
-                    <label for="Discord">Discord</label>
-                    <input type="checkbox" id="others" name="How you know about this project?" value="others">
-                    <label for="others">Others</label>
-                    <br>&nbsp;
-                    <br> <button type="submit">submit</button>
-                    <button type="reset">Fill Again</button>
-                </form>
-            </fieldset>
+
+
+
+            <section id="Links">
+                <!-- Here starts the Learning HTML section-->
+                <h1 class="divhead">&nbsp; Learning Link in <abbr title="Hyper
+                        Text Markup Language">HTML</abbr> </h1>
+
+                <p class="sub-main-heading2"> We are going to start with an
+                    examples</p><br><br>
+
+
+                <!-- Here starts the paragraph of Learning HTML section-->
+                <p>
+                    <!-- Using Order List to number the ANCHOR TAG though it could be neglected -->
+                    <ol>
+
+                        <li class="sub-main-heading3"><strong>Anchor Tag</strong>
+                            - This is used to insert a link of another page.
+                            <br>&nbsp;
+                            <!-- Using UnOrder List to mark the ANCHOR TAG subsection -->
+                            <ul>
+
+                                <!-- Using section for navigation control, this one is for Absolute Refernce Section-->
+                                <section id="absolute">
+                                    <li><b>Using Absolute Reference</b>
+                                        <br> We are going to use full link
+                                        therefore, this will be called as <b>ABSOLUTE
+                                            REFERENCE</b>
+                                        <br>
+                                        <br>For example->&nbsp; You have to link
+                                        a google page in your html page, so thi
+                                        is how
+                                        you will
+                                        do. <br>
+                                        <p class="code2">
+                                            <br><span class="head-color">&lt; a
+                                            </span>
+                                            &nbsphref="https://www.google.com/">Google
+                                            <spans class="head-color">&lt;/a&gt;</spans</code>
+                                    </p>
+                                    <br>Here in href you will paste the link and
+                                    after closing it by ">" you have to write
+                                    the text
+                                    you want to insert link in.
+                                    <br>
+                                    <br>This is how the above example will look
+                                    in your html page
+                                    <br>
+                                    <br><p class="code"> <a
+                                            href="https://www.google.com/">Google</a></p>
+                                    <br>&nbsp;
+                                </li>
+                            </section>
+                        </ul>
+                    </li>
+                </ol>
             </p>
-        </section>
 
-        
-        <section id="videos">
             <p>
-                <div class = "sub-main-heading3">
-            <h1 class="divhead">Adding Videos in HTML</h1>
+                <ol>
+                    <ul>
+                        <!-- Using section for navigation control, this one is for Relative Refernce Section-->
+                        <section id="RelativeReference">
+                            <div class="sub-main-heading3">
+                                <li><b>Using Relative Reference</b>
+                                    <br>In this we will link the page which is
+                                    in same server without giving any link.
+                                    <br>Create a file with extension ".html"
+                                    <br>
+                                    <br>For example- I am going to use
+                                    socialhandels.html
+                                    <br>&nbsp;
+                                    <p class="code2">
+                                        <br><code><span class="head-color">&lt;a
+                                            </span>href="socialhandels.html">socialhandels
+                                            <span class="head-color">&lt;/a&gt;</span></code>
+                                    </p>
+                                    Here in href you name the file(file should
+                                    be in same server) and after closing it by
+                                    ">" you
+                                    have to write the text you want to insert
+                                    that page in.
+                                    <br>
+                                    <br><p class="code"><a
+                                            href="pages/socialhandels.html">Socialhandels</p></a>
+                                    <br>&nbsp;<br><br>
 
-            <br>
-            The <b>video</b> tag is used to embed video content in a document, such as a movie clip or other video
-            streams.
-            <br>We start adding video attribute in HTML by <b> &lt;video&gt; &lt;/video&gt; </b>element
-            <br>
-            <br>&lt;video&gt; consist of input elements such as width, height,controls and so on.
-            <br>
-            <br>
-            There are three supported video formats in HTML: MP4, WebM, and OGG.
-            <br>
-            <br>
-            Now let's see how to add video to html page
-            <br>
-            <video src="img/videohtmlpage.mp4" controls width="200px" height="120px" type="video/mp4">example
-                video</video>
-
-            <br>
-            <br>
-            Now lets see how I added this video
-            <br>
-            <br><code>&lt;video src="img/videohtmlpage.mp4" width="200px" height="120px" type="video/mp4"&gt;example video&lt;/video&gt;</code>
-
+                                </li>
+                            </div>
+                        </section>
+                    </ul>
+                </ol>
             </p>
-        
 
-        </section>
 
-        <!-- add audios -->
-
-        <section id="audios">
             <p>
-            <h1 class="divhead">Adding Audios in HTML</h1>
-            <div class = "sub-main-heading3">
-            <br>
-            The <b>audio</b>element is used to play an audio file on a web page.
-            <br>
-            <br>
-            There are three supported audio formats in HTML: MP3 and OGG.
-            <br>
-            <br>
-            Now let's see how to add audio to html page
-            <br>
-            <audio controls>
-                <source src="img/bird.ogg" type="audio/ogg">
-                <source src="img/bird.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-              </audio>
-            <br>
-            <br>
-            Now lets see how I added this audio
-            <br>
-            <br><code>&lt;audio controls autoplay muted&gt; &lt;source src="bird.ogg" type="audio/ogg"&gt; &lt;source src="bird.mp3" type="audio/mpeg"&gt; Your browser does not support the audio element.&gt;</code>
-            </div>
+                <ol>
+                    <ul>
+
+                        <!-- Using section for navigation control, this one is for making navigation control in HTML file-->
+                        <section id="navigation">
+                            <div class="sub-main-heading3">
+                                <li>
+                                    <b>Using Anchor to Navigate through HTML
+                                        Page</b>
+                                    <br>Now you might have seen that when web
+                                    page is big you get the navigation system to
+                                    navigate
+                                    through different topics, we are going to do
+                                    same using HTML.
+                                    <br>
+                                    <!-- yha image insert kario example ke lie -->
+                                    <br>For example- You are reading on this
+                                    page and now you want to directly jump to
+                                    <b>List
+                                        Types in
+                                        HTML</b> Topic.
+                                    <br>
+                                    <br>So this is how you will do
+                                    <br>
+                                    <br>
+                                    <figure>
+                                        <img src="img/listnav.png" alt="picture
+                                            of list types code encloed
+                                            in section element with id Lists"
+                                            width="320" height="104"
+                                            loading="lazy">
+                                    </figure>
+                                    <figcaption>
+                                        <caption>
+                                            Use section for using navigation and
+                                            don't
+                                            forget to give id
+                                        </caption>
+                                        <br>
+                                        <caption>
+                                            All the code of List(section) should
+                                            be inside &lt;section
+                                            id=""&gt;&lt;/section&gt;
+                                        </caption>
+                                    </figcaption>
+                                    <br>Now after completing the above
+                                    instructions we have to add navigation
+                                    section using
+                                    &lt;nav&gt;&lt;/nav&gt; element
+                                    <br>
+                                    <br><code>
+                                        &lt;nav&gt;
+                                        <br>
+                                        <!-- ignore <br> I have used this only so that format of code on page look good.-->
+                                        <br> &lt;a href="#Lists"&gt;List
+                                        Types&lt;/a&gt;
+                                        <br>
+                                        <br>&lt;/nav&gt;
+                                    </code>
+                                    <br>
+                                    <br>Don't forget to add "#" while calling
+                                    the element
+                                    <br>
+                                    <br>This is how this code will work
+                                    <br>
+                                    <br>
+                                    <nav>
+                                        <a href="#Lists">List Types</a>
+                                    </nav>
+                                    <br>Now to experience how this navigation
+                                    work i am adding navigation control here try
+                                    it
+                                    your self.
+                                    <br>&nbsp;
+                                    <!--Here we use <nav></nav> to start navigation-->
+                                    <figure>
+                                        <p class="code">
+                                            <code>
+                                                &ltnav&gt <br>
+                                                &lt!--Using UnOrder List for
+                                                better format--&gt<br>
+                                                &ltul&gt<br>
+                                                &ltli&gt<br>
+                                                &lta href="#absolute"&gtAbsolute
+                                                Reference&lt/a&gt<br>
+                                                &lt/li&gt<br>
+                                                &ltbr&gt<br>
+                                                &ltli&gt<br>
+                                                &lta
+                                                href="#RelativeReference"&gtRelative
+                                                Reference&lt/a:<br>
+                                                &lt/li&gt<br>
+                                                &ltbr&gt<br>
+                                                &ltli&gt<br>
+                                                &lta href="#"&gtBack To
+                                                Top&lt/a&gt<br>
+                                                &lt/li&gt<br>
+                                                &ltbr&gt<br>
+                                                &ltli&gt<br>
+                                                &lta
+                                                href="#download"&gtDownload&lt/a&gt<br>
+                                                &lt/li&gt<br>
+                                                &ltbr&gt<br>
+                                                &ltli&gt<br>
+                                                &lta
+                                                href="#contacts"&gtContact&lt/a&gt<br>
+                                                &lt/li&gt<br>
+                                                &lt/ul&gt<br>
+                                                &lt/nav&gt<br>
+                                            </code>
+                                        </p>
+                                    </figure>
+                                    <figcaption>
+                                        <caption>
+                                            This is the code I have used for
+                                            navigation panel.
+                                        </caption>
+                                    </figcaption>
+                                    <br><strong>To go back to top you have to
+                                        use only "#" while calling an id,
+                                        without
+                                        declairing
+                                        it.</strong>
+                                    <br>&nbsp;
+                                    <nav>
+                                        <!--Using UnOrder List for better format-->
+                                        <ul>
+                                            <li>
+                                                <a href="#absolute">Absolute
+                                                    Reference</a>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <a href="#RelativeReference">Relative
+                                                    Reference</a>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <a href="#">Back To Top</a>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <a href="#download">Download</a>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <a href="#contacts">Contact</a>
+                                            </li>
+                                        </ul>
+
+                                    </nav>
+                                </li>
+                            </div>
+
+                        </section>
+                        <br>&nbsp;
+                    </ul>
+                </ol>
             </p>
-        </section>
+            <div class="sub-main-heading3">
+                <p>
+                    <ol>
+                        <ul>
+                            <!-- Using section for download image, this one is for making download file function in HTML file-->
+                            <section id="download">
+                                <li><b>Set a file or image to be downloaded from
+                                        user</b>
+                                    <br>Here I will tell you how you can make
+                                    your user to access some of your files and
+                                    download them.
+                                    <br>
+                                    <br>For example- you want to make your user
+                                    to download an image then you can use Anchor
+                                    Tag
+                                    for
+                                    this(Image should be present in your server)
+                                    <br>
+                                    <br>lets say you want to make your user
+                                    access or download Thankyou.jpeg, you will
+                                    use this:
+                                    <p class="code2">
+                                        <br><code> <span class="head-color">
+                                                &lt;a </span>
+                                            href="Thankyou.jpeg"
+                                            download&gt;download image here
+                                            <span class="head-color">&lt;/a&gt;</span>
+                                        </code>
+                                    </p>
 
-        <!-- Text Formatting -->
+                                    <br>
+                                    <p class="code">
+                                        <br><a href="img/thankshomie.jpeg"
+                                            download>Download image here</a><br>
+                                    </p>
 
-        <section id="text-formatting">
+                                    <br>&nbsp;
+                                </li>
+                            </section>
+                        </ul>
+                    </ol>
+                </p>
+
+                <p>
+                    <ol>
+                        <ul>
+                            <!--Add Contact to your HTML page-->
+                            <section id="contacts">
+                                <li>
+                                    <b>Add Contact option which redirect them
+                                        directly to respected apps</b>
+                                    <br>&nbsp;
+                                    <ol>
+                                        <li>
+                                            <b>MAIL</b>
+                                            <br>You can add mail to your HTML
+                                            Page
+                                            <br>
+                                            <br>Code-
+                                            <br>
+                                            <p class="code2">
+                                                <br><code><span class="head-color">
+                                                        &lt;a </span>
+                                                    href="mailto:example@gmail.com">Mail
+                                                    me <span class="head-color">&lt;/a&gt;</span>
+                                                </p>
+                                            </code>
+                                            <br>
+                                            <br>Here this is how it will show on
+                                            Page
+                                            <br>
+                                            <p class="code">
+                                                <br><a
+                                                    href="mailto:nishantattrey07@gmail.com">Mail
+                                                    me</a></p>
+                                        </li>
+                                        <br>&nbsp;
+                                        <li>
+                                            <b> PHONE NUMBER</b>
+
+                                            <br>You can add phone number to your
+                                            HTML Page
+                                            <br>
+                                            <br>Code-
+                                            <br>
+                                            <p class="code2">
+                                                <br><code><span class="head-color">&lt;a
+                                                    </span>
+                                                    href="tel:+919958675577">Phone
+                                                    number <span class="head-color">&lt;/a&gt;</span></code>
+                                            </p>
+
+
+                                            Here this is how it will show on
+                                            Page
+
+                                            <p class="code">
+
+                                                <br> <a
+                                                    href="tel:+919958675577">
+                                                    Phone number</a>
+                                            </p>
+                                            <br> <br> <br>
+
+
+                                        </li>
+                                    </ol>
+
+                                </li>
+                            </section>
+
+                        </ul>
+                    </ol>
+                </p>
+            </section>
             <p>
-            <h1 class="divhead">Adding Text Formatting Using HTML</h1>
-            <div class = "sub-main-heading3">
-            <br>
-            Text Formatting in HTML is done by using these elements.
-            <ul>
-                <li>
-                    <strong>Bold</strong> by using <strong>&lt;strong&gt;&lt;/strong&gt;</strong> or
-                    <strong>&lt;b&gt;&lt;/b&gt;</strong> elements.
-                </li>
-                <br>
-                <li>
-                    <em>Italics</em> by using <strong>&lt;em&gt;&lt;/em&gt;</strong> or
-                    <strong>&lt;i&gt;&lt;/i&gt;</strong>
-                    elements.
-                </li>
-                <br>
-                <li>
-                    <small>Smaller Text</small> by using <strong>&lt;small&gt;&lt;/small&gt;</strong> elements.
-                </li>
-                <br>
-                <li>
-                    <mark>Highlighted Text</mark> by using <strong>&lt;mark&gt;&lt;/mark&gt;</strong> elements.
-                </li>
-                <br>
-                <li>
-                    <s>Strikethrough</s> by using <strong>&lt;s&gt;&lt;/s&gt;</strong> elements.
-                </li>
-                <br>
-                <li>
-                    <u>Underline</u> Text by using <strong>&lt;u&gt;&lt;/u&gt;</strong> elements.
-                </li>
-                <br>
-                <li>
-                    <sub>Subscripted</sub> Text by using <strong>&lt;sub&gt;&lt;/sub&gt;</strong> elements.
-                    <br>
-                    For example : 2H<sub>2</sub> + O<sub>2</sub> -> H<sub>2</sub>O
-                </li>
-                <br>
-                <li>
-                    <sup>Superscripted</sup> Text by using <strong>&lt;sup&gt;&lt;/sup&gt;</strong> elements.
-                    <br>
-                    For example : 2<sup>4</sup> = 16 <br><br>
-                </li>
-            </ul>
-            </p>
-        
-        </section>
 
-        <!--To the contributors adding info further, please add above this pdf as cheatsheet should remain at last for reference purposes -->
-        <h3>HTML cheatsheet for reference</h3>
-        <div class="output sub-main-heading3">
-        <p>Open the PDF <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf"> cheatsheet by Stanford
-            </a>
-            
-        </p>
-    </div>
+                <section id="images">
+                    <h1 class="divhead">Add Image to HTML Page</h1>
+                    <div class="sub-main-heading3">
 
-        <hr>
-        <p>Happy Learning future Developers!</p>
+                        Now you might want to add images too in your html page
+                        like i have done above, So lets go
+                        <br>
+                        <br><code>
+                            <p class="code">
+                                <span class="head-color">&lt;img </span>src="img/img.png"
+                                alt="Showing how to add image to HTML Page"
+                                <br> width="378" height="353" loading="lazy"<span
+                                    class="head-color">&gt;</span>
+                            </p>
+
+                        </code>
+                        <br>&nbsp;
+                        <br>This is what the result will be
+                        <br>&nbsp;
+
+                        <figure>
+                            <p class="code">
+                                <code>
+                                    &ltfigure&gt<br>
+                                    &ltbr&gt&ltimg src=" img/img.png"<br>
+                                    alt="Showing how to
+                                    add image to HTML Page"<br> width="440"
+                                    height="178" loading="lazy"&gt<br>
+                                    &lt/figure&gt<br>
+                                    &ltfigcaption&gt<br>
+                                    &ltcaption&gtThis is caption of an image
+                                    &lt/caption&gt<br>
+                                    &lt/figcaption&gt<br>
+
+                                </code>
+                            </p>
+                        </figure>
+                        <figcaption>
+                            <br>
+
+                            <caption>This is caption of an image
+                            </caption>
+
+                        </figcaption>
+                        <br>Image given above is an examle of adding image with
+                        caption to HTML.
+                        <br>There are many elements we can use in &lt;img&gt;
+                        <br>I will be listing some of them.
+                        <ol>
+                            <li>
+                                <b>alt </b>
+                                <br> The alt attribute specifies an alternate
+                                text for an area, if the image cannot be
+                                displayed. The alt attribute provides
+                                alternative information for an image if a user
+                                for some
+                                reason cannot view it because of slow
+                                connection, an error in the src attribute, or if
+                                the user
+                                uses a screen reader.
+                                <br>
+                                <br>You can see in the above image, the alt
+                                attribute I have used.
+                            </li>
+                            <br>
+                            <li>
+                                <b>width,height</b>
+                                <br>The height and width properties are used to
+                                set the height and width of an element. The
+                                height and width properties do not include
+                                padding, borders, or margins.
+                                <br>
+                                <br> Well this was like googled answer but why
+                                we really need to give width and height?
+                                <br>&nbsp;&nbsp;We give width and height of an
+                                image because of cumulative layout shift.
+                                <br>
+                                <br><b>What is cumulative layout shift?</b>
+                                <br>Well in simple word it helps how often users
+                                experience unexpected layout shifts. For more
+                                insight on this you can refer to this article.
+                                <br><a href="https://web.dev/cls/">cumulative
+                                    layout shift</a>
+                            </li>
+                            <br>
+                            <li>
+                                <b>loading</b>
+                                <br> The loading attribute specifies whether a
+                                browser should load an image immediately or to
+                                defer loading of off-screen images, loading by
+                                default is active(loading="active") for example
+                                the user scrolls near them. <b>Tip:</b> Add <b>loading="lazy"
+                                </b> only to images which are
+                                positioned below the <b>fold</b>.
+                                <br>
+                                <br><b>What is fold?</b>
+                                <br>Fold is the border line between the content
+                                you can see on your screen and the content you
+                                can't which is present on same page. Simply put
+                                the part of website which will come on screen
+                                after scrolling scroll bar is called below the
+                                fold. Now from this you can understand what is
+                                fold.
+                            </li>
+                            <br>
+                            <li>
+                                <b>Caption</b>
+                                <br>Caption is used to give a caption to a image
+                                here in the above image. you can see
+                                &lt;caption&gt;&lt;/caption&gt; attribute under
+                                &lt;figcaption&gt; &lt;/figcaption&gt;
+                                attribute.
+                                <br><b>&lt;figcaption&gt;</b>The
+                                &lt;figcaption&gt; HTML element represents a
+                                caption or legend
+                                describing the rest of the contents of its
+                                parent &lt;figure&gt; element.
+
+                                <br>
+                                <div class="code2">
+                                    <br><code>
+                                        &lt;figure&gt;
+                                        &lt;img src="img/img.png" alt="Showing
+                                        how to add image to HTML Page"
+                                        width="378" height="353"
+                                        loading="lazy"&gt;
+                                        &lt;/figure&gt;
+                                        <br>&nbsp;
+                                        <br> &lt;figcaption&gt;
+                                        &lt;caption&gt;
+                                        This is caption of an image
+                                        &lt;/caption&gt;
+                                        &lt;figcaption&gt;
+                                    </code>
+                                </div>
+
+                            </li>
+                        </ol>
+
+                        <br>&nbsp;
+                    </div>
+                </section>
+
+                <section id="Tables">
+                    <p>
+                        <h1 class="divhead">Adding Table to HTML page</h1>
+                        <div class="sub-main-heading3">
+                            In this section you will learn about how to add
+                            tables to your HTML page.
+                            <br> What are the uses of tables in HTML?
+                            <br><a
+                                href="https://www.freecodecamp.org/news/html-tables-all-there-is-to-know-about-them-d1245980ef96/#:~:text=The%20HTML%20table%20is%20used,%E2%80%94%20basically%2C%20rows%20and%20columns.">
+                                Google it</a>&nbsp;(:
+
+                            <br>Table starts from &lt;table&gt;&lt;/table&gt;
+                            element
+                            But as like table have many blocks- row,
+                            column,Table header, footer.I will talk about all of
+                            them.
+
+                            <div>
+                                <h4>Now I will show you how you can make table
+                                    and add different elemnts in it using
+                                    elements/tags like
+                                    &lt;table&gt; &lt;tr&gt; &lt;td&gt; </h4>
+                                <!-- Table without CSS NO BORDERS -->
+                                <aside>
+                                    <details>
+                                        <summary>Table without using CSS(No
+                                            borders)</summary>
+                                        <figure>
+                                            <img src="img/tablewithoutcss.png"
+                                                alt="Table without CSS, NO
+                                                borders" width="488"
+                                                height="277">
+                                        </figure>
+                                    </details>
+                                </aside>
 
 
+                                <aside>
+                                    <details>
+                                        <summary>Table with css</summary>
+                                        <table class="center">
+                                            <caption><b> Useful Tags in HTML
+                                                </b></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        Tag
+                                                    </th>
+                                                    <th>
+                                                        Description
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        &lt;table&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;th&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a header cell in
+                                                        a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;tr&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a row in a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;td&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a cell in a
+                                                        table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;caption&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a table caption
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;colgroup&gt;
+                                                    </td>
+                                                    <td>
+                                                        Specifies a group of one
+                                                        or more columns in a
+                                                        table for formatting
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;col&gt;
+                                                    </td>
+                                                    <td>
+                                                        Specifies column
+                                                        properties for each
+                                                        column within a
+                                                        &lt;colgroup&gt; element
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;thead&gt;
+                                                    </td>
+                                                    <td>
+                                                        Groups the header
+                                                        content in a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;tbody&gt;
+                                                    </td>
+                                                    <td>
+                                                        Groups the body content
+                                                        in a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        &lt;tfoot&gt;
+                                                    </td>
+                                                    <td>
+                                                        Groups the footer
+                                                        content in a table
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </details>
+                                </aside>
+                                <!-- Adding colgroup  to table  -->
+                                <br> &lt;Colgroup&gt; &lt;/Colgroup&gt; is used
+                                for adding a seecific feature to specific
+                                columns. In the
+                                example
+                                given below I have added new background colour
+                                to specific column (S.NO.)
+                                <aside>
+                                    <details>
+                                        <summary>
+                                            Using Colgroup
+                                        </summary>
+
+                                        <table>
+                                            <caption><b> Useful Tags in HTML
+                                                </b></caption>
+                                            <colgroup>
+                                                <col span="1"
+                                                    style="background-color:grey;">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        S.NO.
+                                                    </th>
+                                                    <th>
+                                                        Tag
+                                                    </th>
+                                                    <th>
+                                                        Description
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>
+                                                        &lt;table&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>
+                                                        &lt;th&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a header cell in
+                                                        a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>
+                                                        &lt;tr&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a row in a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>
+                                                        &lt;td&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a cell in a
+                                                        table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>
+                                                        &lt;caption&gt;
+                                                    </td>
+                                                    <td>
+                                                        Defines a table caption
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>
+                                                        &lt;colgroup&gt;
+                                                    </td>
+                                                    <td>
+                                                        Specifies a group of one
+                                                        or more columns in a
+                                                        table for formatting
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>
+                                                        &lt;col&gt;
+                                                    </td>
+                                                    <td>
+                                                        Specifies column
+                                                        properties for each
+                                                        column within a
+                                                        &lt;colgroup&gt; element
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>
+                                                        &lt;thead&gt;
+                                                    </td>
+                                                    <td>
+                                                        Groups the header
+                                                        content in a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>
+                                                        &lt;tbody&gt;
+                                                    </td>
+                                                    <td>
+                                                        Groups the body content
+                                                        in a table
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>
+                                                        &lt;tfoot&gt;
+                                                    </td>
+                                                    <td>
+                                                        Groups the footer
+                                                        content in a table
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </details>
+                                </aside>
+                            </div>
+                        </p>
+                    </section>
+                    <!-- Forms is HTML -->
+                    <section id="Forms">
+                        <p>
+                            <h1 class="divhead">Forms in HTML</h1>
+                            <div class="sub-main-heading3">
+
+                                An HTML form is used to collect user input. The
+                                user input is most often sent to a server for
+                                processing.
+                                <br>We start making form in HTML by <b>
+                                    &lt;form&gt; &lt;/form&gt; </b>element
+                                <br>&lt;form&gt; consist of input elements such
+                                as text fields, checkboxes, radio buttons,submit
+                                buttons,
+                                etc.
+                                <br>
+                                <ul>
+                                    <li>
+                                        <h3> &lt;input&gt; element </h3>
+                                        The HTML &lt;input&gt; is the most used
+                                        form element
+                                        <br>
+                                        <br>
+                                        <table>
+
+                                            <thead>
+                                                <caption>Uage of input element
+                                                </caption>
+                                                <tr>
+                                                    <th>Type</th>
+                                                    <th>Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>&lt;input
+                                                        type="text"&gt;</td>
+                                                    <td>Displays a single-line
+                                                        text input field</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&lt;input
+                                                        type="radio"&gt;</td>
+                                                    <td> Displays a radio button
+                                                        (for selecting one of
+                                                        many choices)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&lt;input
+                                                        type="checkbox"&gt;</td>
+                                                    <td> Displays a checkbox
+                                                        (for selecting zero or
+                                                        more of many choices)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&lt;input
+                                                        type="submit"&gt;</td>
+                                                    <td> Displays a submit
+                                                        button (for submitting
+                                                        the form)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>&lt;input
+                                                        type="button"&gt;</td>
+                                                    <td>Displays a clickable
+                                                        button</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <h3>&lt;label&gt; element</h3>
+                                        <ol>
+                                            <li>&lt;label&gt; tag defines a
+                                                label for many form elements</li>
+                                            <li>The &lt;label&gt; element is
+                                                useful for screen-reader users</li>
+                                        </ol>
+                                    </li>
+                                    <br>
+                                    Now using &lt;input&gt; and &lt;label&gt; I
+                                    will make a part of a form
+                                    <br>&nbsp;
+                                    <form>
+                                        <p class="code">
+                                            <label for="fname">First name:</label>
+                                            <br><input type="text" id="fname"
+                                                name="fname">
+                                            <br><label for="lname">Last name:</label>
+                                            <br><input type="text" id="lname"
+                                                name="lname">
+
+                                        </form>
+                                    </p>
+                                    <br>&nbsp;
+                                    <br>The code I used to make this part of
+                                    form
+                                    <br>
+                                    <br>
+                                    <p class="code4">
+                                        <code>
+                                            &lt;form &gt;
+                                            <br>&lt;label for="fname"&gt;First
+                                            name:&lt;/label&gt;
+                                            <br> &lt;br&gt;&lt;input type="text"
+                                            id="fname" name="fname"&gt;
+                                            <br> &lt;br&gt;&lt;label
+                                            for="lname"&gt;Last
+                                            name:&lt;/label&gt;
+                                            <br> &lt;br&gt;&lt;input type="text"
+                                            id="lname" name="lname"&gt;
+                                            <br>&lt;/form&gt;
+                                        </code>
+                                    </p>
+                                    <br>
+                                    <li>
+                                        <h3>Radio Buttons</h3>
+                                        <div class="code">
+                                            The &lt;input type="radio"&gt;
+                                            defines a radio button.Radio buttons
+                                            let a user select One of a
+                                            limited
+                                            number of choices.
+                                        </div>
+
+                                        <br>
+                                        <p>Lets see how Radio button work...
+                                            <br>
+                                            <br>Will you contribute to this
+                                            project?
+                                            <br>
+                                            <form>
+                                                <p class="code">
+                                                    <input type="radio" id="yes"
+                                                        name="Will you
+                                                        contribute to this
+                                                        project?" name="yes">
+                                                    <label for="yes">Yes</label>
+                                                    <input type="radio" id="no"
+                                                        name="Will you
+                                                        contribute to this
+                                                        project?" value="no">
+                                                    <label for="no">No</label>
+                                                    <input type="radio"
+                                                        id="notsure" name="Will
+                                                        you contribute to this
+                                                        project?"
+                                                        value="notsure">
+                                                    <label for="notsure">Not
+                                                        Sure</label>
+                                                </p>
+
+                                            </form>
+                                        </p><br>
+
+                                        Code for this:
+                                        <br>
+                                        <p class="code5">
+                                            <br><code>
+                                                &lt;form &gt;
+                                                &lt;input type="radio" id="yes"
+                                                name="Will you contribute to
+                                                this project?" name="yes"&gt;
+                                                <br> &lt;label
+                                                for="yes"&gt;Yes&lt;/label&gt;
+                                                <br> &lt;input type="radio"
+                                                id="no" name="Will you
+                                                contribute to this project?"
+                                                value="no"&gt;
+                                                <br> &lt;label
+                                                for="no"&gt;No&lt;/label&gt;
+                                                <br> &lt;input type="radio"
+                                                id="notsure" name="Will you
+                                                contribute to this project?"
+                                                value="notsure"&gt;
+                                                <br> &lt;label
+                                                for="notsure"&gt;Not
+                                                Sure&lt;/label&gt;
+                                                <br> &lt;/form&gt;
+                                            </code>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h3>Checkboxes</h3>
+                                        The &lt;input type="checkbox"&gt;
+                                        defines a checkbox.Checkboxes let a user
+                                        select ZERO or MORE
+                                        options
+                                        of a
+                                        limited number of choices.
+
+                                        <p>Lets see how Checkbox work...</p>
+                                        <br>
+                                        <br>Where do you found about this
+                                        project?
+                                        <br>
+                                        <form>
+                                            <p class="code">
+                                                <input type="checkbox"
+                                                    id="Github" name="Where do
+                                                    you found about this
+                                                    project?" value="Github">
+                                                <label for="Gihub">Github</label>
+                                                <input type="checkbox"
+                                                    id="twitter" name="Where do
+                                                    you found about this
+                                                    project?"
+                                                    value="twitter">
+                                                <label for="twitter">Twitter</label>
+                                                <input type="checkbox"
+                                                    id="discord" name="Where do
+                                                    you found about this
+                                                    project?"
+                                                    value="discord">
+                                                <label for="discord">Discord
+                                                    Server</label>
+                                                <input type="checkbox"
+                                                    id="others" name="Where do
+                                                    you found about this
+                                                    project?" value="others">
+                                                <label for="others">Others</label>
+                                            </p>
+                                        </form><br><br>
+                                        Code for this:
+                                        <code>
+                                            <p class="code6">
+
+                                                &lt;form&gt;
+                                                <br>&lt;input type="checkbox"
+                                                id="Github" name="Where do you
+                                                found about this project?"
+                                                value="Github"&gt;
+                                                <br>&lt;label
+                                                for="Gihub"&gt;Github&lt;/label&gt;
+                                                <br> &lt;input type="checkbox"
+                                                id="twitter" name="Where do you
+                                                found about this project?"
+                                                value="twitter"&gt;
+                                                <br> &lt;label
+                                                for="twitter"&gt;Twitter&lt;/label&gt;
+                                                <br>&lt;input type="checkbox"
+                                                id="discord" name="Where do you
+                                                found about this project?"
+                                                value="discord"&gt;
+                                                <br> &lt;label
+                                                for="discord"&gt;Discord
+                                                Server&lt;/label&gt;
+                                                <br> &lt;input type="checkbox"
+                                                id="others" name="Where do you
+                                                found about this project?"
+                                                value="others"&gt;
+                                                <br> &lt;label
+                                                for="others"&gt;Others&lt;/label&gt;
+                                                <br>&lt;/form&gt;
+                                            </p>
+                                        </code>
 
 
+                                    </li>
+                                    <li>
+                                        <h3>Submit Button</h3>
+                                        The submit button is used for submitting
+                                        the form data to a form-handler
+                                        <br>
+                                        <br><b>What is form-handler?</b>
+                                        <br>The form-handler is a file on the
+                                        server with a script for processing
+                                        input data.
+                                        form-handler is specified in the form's
+                                        "action" attribute.
+                                        <br>
+                                        <br><button type="submit">Submit</button>
+                                        <br>
+                                        <br>Code for the Submit button
+                                        <br><code>&lt;button
+                                            type="submit"&gt;Submit&lt;/button&gt;</code>
+                                    </li>
+                                    <li>
+                                        <h3>Reset Button</h3>
+                                        Reset button is used for resetting the
+                                        form
+                                        <br>&nbsp;
+                                        <br>
+                                        <button type="reset">Reset</button>
+                                        <br>
+                                        <code>&lt;button
+                                            type="reset"&gt;Reset&lt;/button&gt;</code>
+                                    </li>
 
 
+                                </section>
+                                <!-- Complete Form for user interaction-->
+                                <section id="compform">
+                                    <p>
+                                        <h3>Now let's make a complete form </h3>
+                                        <fieldset>
+
+                                            <br>
+                                            <form
+                                                action="mailto:nishantattrey07@gmail.com"
+                                                method="post" id="aboutProject">
+                                                <label for="name">Name</label>
+                                                <input type="text" id="name"
+                                                    name="Username"
+                                                    placeholder="Jack"
+                                                    autocomplete="on" required>
+                                                <p>Will you contribute to the
+                                                    project?</p>
+                                                <input type="radio" id="yes"
+                                                    name="Will you contribute"
+                                                    value="Yes">
+                                                <label for="yes">Yes</label>
+                                                <input type="radio" id="no"
+                                                    name="Will you contribute"
+                                                    value="No">
+                                                <label for="no">No</label>
+                                                <input type="radio" id="notsure"
+                                                    name="Will you contribute"
+                                                    value="Not Sure">
+                                                <label for="notsure">Not Sure</label>
+                                                <br>
+                                                <p>How you got to know about
+                                                    this project?</p>
+                                                <input type="checkbox"
+                                                    id="Twitter" name="How you
+                                                    know about this project?"
+                                                    value="Twitter">
+                                                <label for="Twitter">Twitter</label>
+                                                <input type="checkbox"
+                                                    id="Github" name="How you
+                                                    know about this project?"
+                                                    value="Github">
+                                                <label for="Github">Github</label>
+                                                <input type="checkbox"
+                                                    id="Discord" name="How you
+                                                    know about this project?"
+                                                    value="Discord">
+                                                <label for="Discord">Discord</label>
+                                                <input type="checkbox"
+                                                    id="others" name="How you
+                                                    know about this project?"
+                                                    value="others">
+                                                <label for="others">Others</label>
+                                                <br>&nbsp;
+                                                <br> <button type="submit">submit</button>
+                                                <button type="reset">Fill Again</button>
+                                            </form>
+                                        </fieldset>
+                                    </p>
+                                </section>
 
 
-</body>
+                                <section id="videos">
+                                    <p>
+                                        <div class="sub-main-heading3">
+                                            <h1 class="divhead">Adding Videos in
+                                                HTML</h1>
 
-<footer>
-    <nav>
-        <a href="#">Go back to Top</a>
+                                            <br>
+                                            The <b>video</b> tag is used to
+                                            embed video content in a document,
+                                            such as a movie clip or other video
+                                            streams.
+                                            <br>We start adding video attribute
+                                            in HTML by <b> &lt;video&gt;
+                                                &lt;/video&gt; </b>element
+                                            <br>
+                                            <br>&lt;video&gt; consist of input
+                                            elements such as width,
+                                            height,controls and so on.
+                                            <br>
+                                            <br>
+                                            There are three supported video
+                                            formats in HTML: MP4, WebM, and OGG.
+                                            <br>
+                                            <br>
+                                            Now let's see how to add video to
+                                            html page
+                                            <br>
+                                            <video src="img/videohtmlpage.mp4"
+                                                controls width="200px"
+                                                height="120px" type="video/mp4">example
+                                                video</video>
 
-    </nav>
-</footer>
+                                            <br>
+                                            <br>
+                                            Now lets see how I added this video
+                                            <br>
+                                            <br><code>&lt;video
+                                                src="img/videohtmlpage.mp4"
+                                                width="200px" height="120px"
+                                                type="video/mp4"&gt;example
+                                                video&lt;/video&gt;</code>
 
-</html>
+                                        </p>
+
+
+                                    </section>
+
+                                    <!-- add audios -->
+
+                                    <section id="audios">
+                                        <p>
+                                            <h1 class="divhead">Adding Audios in
+                                                HTML</h1>
+                                            <div class="sub-main-heading3">
+                                                <br>
+                                                The <b>audio</b>element is used
+                                                to play an audio file on a web
+                                                page.
+                                                <br>
+                                                <br>
+                                                There are three supported audio
+                                                formats in HTML: MP3 and OGG.
+                                                <br>
+                                                <br>
+                                                Now let's see how to add audio
+                                                to html page
+                                                <br>
+                                                <audio controls>
+                                                    <source src="img/bird.ogg"
+                                                        type="audio/ogg">
+                                                    <source src="img/bird.mp3"
+                                                        type="audio/mpeg">
+                                                    Your browser does not
+                                                    support the audio element.
+                                                </audio>
+                                                <br>
+                                                <br>
+                                                Now lets see how I added this
+                                                audio
+                                                <br>
+                                                <br><code>&lt;audio controls
+                                                    autoplay muted&gt;
+                                                    &lt;source src="bird.ogg"
+                                                    type="audio/ogg"&gt;
+                                                    &lt;source src="bird.mp3"
+                                                    type="audio/mpeg"&gt; Your
+                                                    browser does not support the
+                                                    audio element.&gt;</code>
+                                            </div>
+                                        </p>
+                                    </section>
+
+                                    <!-- Text Formatting -->
+
+                                    <section id="text-formatting">
+                                        <p>
+                                            <h1 class="divhead">Adding Text
+                                                Formatting Using HTML</h1>
+                                            <div class="sub-main-heading3">
+                                                <br>
+                                                Text Formatting in HTML is done
+                                                by using these elements.
+                                                <ul>
+                                                    <li>
+                                                        <strong>Bold</strong> by
+                                                        using <strong>&lt;strong&gt;&lt;/strong&gt;</strong>
+                                                        or
+                                                        <strong>&lt;b&gt;&lt;/b&gt;</strong>
+                                                        elements.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <em>Italics</em> by
+                                                        using <strong>&lt;em&gt;&lt;/em&gt;</strong>
+                                                        or
+                                                        <strong>&lt;i&gt;&lt;/i&gt;</strong>
+                                                        elements.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <small>Smaller Text</small>
+                                                        by using <strong>&lt;small&gt;&lt;/small&gt;</strong>
+                                                        elements.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <mark>Highlighted Text</mark>
+                                                        by using <strong>&lt;mark&gt;&lt;/mark&gt;</strong>
+                                                        elements.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <s>Strikethrough</s> by
+                                                        using <strong>&lt;s&gt;&lt;/s&gt;</strong>
+                                                        elements.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <u>Underline</u> Text by
+                                                        using <strong>&lt;u&gt;&lt;/u&gt;</strong>
+                                                        elements.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <sub>Subscripted</sub>
+                                                        Text by using <strong>&lt;sub&gt;&lt;/sub&gt;</strong>
+                                                        elements.
+                                                        <br>
+                                                        For example : 2H<sub>2</sub>
+                                                        + O<sub>2</sub> -> H<sub>2</sub>O
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        <sup>Superscripted</sup>
+                                                        Text by using <strong>&lt;sup&gt;&lt;/sup&gt;</strong>
+                                                        elements.
+                                                        <br>
+                                                        For example : 2<sup>4</sup>
+                                                        = 16 <br><br>
+                                                    </li>
+                                                </ul>
+                                            </p>
+
+                                        </section>
+
+                                        <!--To the contributors adding info further, please add above this pdf as cheatsheet should remain at last for reference purposes -->
+                                        <h3>HTML cheatsheet for reference</h3>
+                                        <div class="code sub-main-heading3">
+                                            <p>Open the PDF <a
+                                                    href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">
+                                                    cheatsheet by Stanford
+                                                </a>
+
+                                            </p>
+                                        </div>
+
+                                        <hr>
+                                        <p>Happy Learning future Developers!</p>
+                                    </body>
+
+                                    <footer>
+                                        <nav>
+                                            <a href="#">Go back to Top</a>
+                                        </nav>
+                                    </footer>
+
+                                </html>
