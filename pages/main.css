@@ -2,11 +2,14 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
+background-color: rgb(15,15,15);
+color:white;
 }
 
 
@@ -18,7 +21,8 @@ body {
   width: 100%;
   background-color: black;
   padding: 1rem;
-  
+  background-color: rgb(15,15,15);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #main-nav-bar-child1{
@@ -31,24 +35,29 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-.dark-mode {
-  background-color: #010201;
-  color: white;
+
+#nav-bar-link{
+  color: rgb(109, 109, 114);
+}
+
+#nav-bar-link:hover{
+  color: rgb(187, 186, 186);
 }
 
 .headingdefined {
-  font-size: 25px;
+  font-size: 2rem;
 }
 
+
 .divhead {
-  font-size: 40px;
-  margin: 30px 0px;
-  padding: 0 10px;
+  font-size: 1rem;
+  margin: 1.875rem 0rem;
+  padding: 0 0.625rem;
 }
 
 .main-heading {
   display: inline-block;
-  padding: 0 80px;
+  padding: 0 5rem;
   /* font-weight: bolder; */
 }
 
@@ -95,7 +104,7 @@ body {
 
 .code2 {
   padding: 0 20px;
-  background-color: #333333;
+  background-color: rgb(39,39,39);
   color: white;
   height: 70px;
   font-size: 18px;
@@ -104,7 +113,7 @@ body {
 
 .code6 {
   padding: 0 20px;
-  background-color: #333333;
+  background-color: rgb(39,39,39);
   color: white;
   height: 280px;
   font-size: 18px;
@@ -112,7 +121,7 @@ body {
 }
 
 .code3 {
-  background-color: #333333;
+  background-color: rgb(39,39,39);
   color: white;
   padding: 0 20px;
   border-radius: 5px;
@@ -125,7 +134,7 @@ body {
   color: white;
   border-radius: 5px;
 
-  background-color: #333333;
+  background-color: rgb(39,39,39);
 }
 
 .code5 {
@@ -134,11 +143,11 @@ body {
   color: white;
   border-radius: 5px;
 
-  background-color: #333333;
+  background-color: rgb(39,39,39);
 }
 
 .output {
-  background-color: antiquewhite;
+  background-color: rgb(39, 39, 39);
 
 }
 
@@ -229,11 +238,11 @@ content{
 
 /* thi is for links */
 a:link{
-  color: crimson;
+  color: #2899f5;
   text-decoration: none;
 }
 a:visited{
-  color: crimson;
+  color: #2899f5;
   text-decoration: none;
 }
 a:hover {
@@ -245,17 +254,17 @@ a:hover {
 
 .divhead{
   
-  border-left: medium outset crimson;
+  border-left: medium outset #2899f5;
   border-radius: 4px;
-  color: rgb(155, 36, 36);
+  color: #2899f5;
   font-size: 43px;
-  background-color: #becfc9;
+  background-color: rgb(15, 15, 15);
   
 }
 
 /* .code class to showcase code on website*/
 .code{
-  background-color: #333;
+  background-color: rgb(39,39,39);
   height: auto;
   text-align: justify;
   color: aliceblue;
@@ -268,7 +277,7 @@ table, th, td {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
-    border: 1px solid black;
+    border: 1px solid #2899f5;
 }
   td {
     text-align: center;
