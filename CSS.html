@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80b9608b03.js" crossorigin="anonymous"></script>
+    <title>Learning CSS</title>
+    <link rel="stylesheet" href="pages/main.css" type="text/css"> <!-- Put a better image-->
+    <link rel="icon" href="Css.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="main-nav-bar">
+        <div id="main-nav-bar-child1">
+            <h4 class="hellog">Learning Website Development</h4>
+        </div>
+        <div id="main-nav-bar-child2">
+            <a href="#SCSS" id="nav-bar-link">Syntax</a> <br>
+            <a href="#Background" id="nav-bar-link">Background</a> <br>
+            <a href="#Border" id="nav-bar-link">Border</a> <br>
+            <a href="#Margin" id="nav-bar-link">Margins</a> <br>
+            <a href="#Padding" id="nav-bar-link">Padding</a><br>
+            <a href="#Height-Width" id="nav-bar-link">Height and Width</a><br>
+            <a href="#Box-Model" id="nav-bar-link">Box Model</a><br>
+            <a href="#Table" id="nav-bar-link">Table</a><br>
+            <a href="#Zindex" id="nav-bar-link">Z-Index</a><br>
+        </div>
+
+    </div>
+        <h1>CSS</h1>
+        <pre class="hi">
+    <h2 class="h">What is CSS?</h2>
+
+    CSS stands for Cascading Style Sheets, it is used to define and style HTML elements. In layman terms if HTML is a person,
+    then CSS is the clothing of that person.
+        </pre>
+
+    <div class = "Intro1" id="SCSS">
+        <h1>Syntax of CSS</h1>
+        <h2>Syntax: </h2>
+        <pre class = "Example1">
+            h1 {
+            color: green;
+            text-align: right;
+          }
+        </pre>
+    <pre>
+    In the above example:-
+
+    p = selector
+    color = property 
+    green = property value
+    text-align = property
+    right = property value
+    </pre>
+    </div>
+    <div id="Background">
+    <div class = "Intro2">
+        <h1>CSS Background</h1>
+        <h3>Plain Color</h3>
+        <h2>Syntax: </h2>
+        <pre class="Example2">
+            body {
+                background-color: lightblue;
+              }
+        </pre>
+        <h3>Image</h3>
+        <h2>Syntax: </h2>
+        <pre class="Example3">
+            body {
+                background-image: url("bi.png");
+              }
+        </pre>
+    <pre>
+    In the above example:-
+
+    body = selector (As the whole page needs to be covered)
+    background-image = Sets background image for an element
+    url("bi.png") = The link of the image 
+    </pre>
+    </div>
+    </div>
+    <div class="Intro3">
+        <h1 id="Border">CSS Border</h1>
+        <p>CSS Border property is used to give a border to an element and also specifies different properties of the border.</p>
+        <h2>Syntax:</h2>
+        <pre class="Example4">
+            p.dotted {border-style: dotted;}
+            p.dashed {border-style: dashed;}
+            p.solid {border-style: solid;}
+            p.double {border-style: double;}
+            p.groove {border-style: groove;}
+            p.ridge {border-style: ridge;}
+            p.inset {border-style: inset;}
+            p.outset {border-style: outset;}
+            p.none {border-style: none;}
+            p.hidden {border-style: hidden;}
+            p.mix {border-style: dotted dashed solid double;}
+        </pre>
+    <pre>
+    There are many different types of styles for borders stated in the above example
+    border-style = Used to call different types of styles
+    </pre>
+    </div>
+    <div class="Intro4">
+        <h1 id="Margin">CSS Margins</h1>
+        <p>Margins is CSS is used to add space around the elements.</p>
+        <h2>Syntax: </h2>
+        <pre class="Example5">
+            h1 {
+                margin-top: 500px;
+                margin-bottom: 100px;
+                margin-right: 150px;
+                margin-left: 80px;
+              }
+        </pre>
+    <pre>
+    In the above example:- 
+
+    margin-top = Adjusts the top margin of an element with the specified value
+    margin-bottom  = Adjusts the bottom margin of an element with the specified value
+    margin-right = Adjusts the right margin of an element with the specified value
+    margin-left = Adjusts the left margin of an element with the specified value
+
+   
+    #Important 
+
+    auto can be used as a value as well, it automatically centers the element horizontally. 
+    </pre>
+    </div>
+    <div class="Intro5">
+        <h1 id="Padding">CSS Padding</h1>
+        <p>In simple terms, Padding is used for spacing inside a defined div element</p>
+        <h2>Syntax:</h2>
+        <pre class="Example6">
+            div {
+                padding-top: auto;
+                padding-right: auto;
+                padding-bottom: auto;
+                padding-left: auto;
+              }
+        </pre>
+    <pre>
+    In the above example:- 
+
+    padding-top = Adjusts the top padding of an element with the specified value
+    padding-bottom  = Adjusts the bottom padding of an element with the specified value
+    padding-right = Adjusts the right padding of an element with the specified value
+    padding-left = Adjusts the left padding of an element with the specified value
+    </pre>
+    </div>
+    <div class="Intro6">
+        <h1 id="Height-Width">CSS Height and Width </h1>
+        <p>Height and Width properties of CSS are used to adjust the height and width of elements</p>
+        <h2>Syntax</h2>
+        <pre class="Example7">
+            div {
+                height: auto;
+                width: auto;
+             }
+        </pre>
+    <pre>
+    In the above example:-
+
+    height = Adjusts the height of the element with the specified value
+    widhth = Adjusts the width of the element with the specified value
+    </pre>
+    </div>
+    <div class="Intro7">
+        <h1 id="Box-Model">CSS Box Model</h1>
+        <p>The CSS box model comes into picture when the designing or layout of elements are concerned</p>
+        <h2>Syntax:</h2>
+        <pre class="Example8">
+            div {
+                width: 300px;
+                border: 15px solid green;
+                padding: 50px;
+                margin: 20px;
+              }
+        </pre>
+    <pre>
+    The above example is the way of designing elements
+    </pre>
+    </div>
+    <div class="Intro8">
+        <h1 id="Table">CSS Table</h1>
+        <p>A table made in HTML can be made pleasing to the eye using table properties of CSS </p>
+        <h2>Syntax:</h2>
+        <pre class="Example9">
+            table, th, td {
+                border: 1px solid;
+              }
+        </pre>
+    <pre>
+    In the above example:-
+
+    Table along with table header and table data are taken and are given a border.
+    </pre>
+    </div>
+    <div class="Intro9">
+        <h1 id="Zindex">CSS Z-Index</h1>
+        <p>In simple terms Z-Index in CSS is used to avoid overlapping of elements</p>
+        <h2>Syntax:</h2>
+        <pre class="Example10">
+            img {
+                position: absolute;
+                left: auto;
+                top: auto;
+                z-index: -1;
+              }
+        </pre>
+    <pre>
+    The above example is a basic way of defining an element with z-index.
+    The z-index is intially at 0, it can be adjusted according to the which element the user wants on top.
+    </pre>
+    </div>
+
+</div>
