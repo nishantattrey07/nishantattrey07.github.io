@@ -8,8 +8,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-background-color: rgb(15,15,15);
-color:white;
 }
 
 
@@ -19,9 +17,8 @@ color:white;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black;
+  background-color: whitesmoke;
   padding: 1rem;
-  background-color: rgb(15,15,15);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -49,11 +46,6 @@ color:white;
 }
 
 
-.divhead {
-  font-size: 1rem;
-  margin: 1.875rem 0rem;
-  padding: 0 0.625rem;
-}
 
 .main-heading {
   display: inline-block;
@@ -253,12 +245,15 @@ a:hover {
 
 
 .divhead{
+  font-size: 1rem;
+  margin: 1.875rem 0rem;
+  padding: 0 0.625rem;
   
   border-left: medium outset #2899f5;
   border-radius: 4px;
   color: #2899f5;
   font-size: 43px;
-  background-color: rgb(15, 15, 15);
+  background-color: whitesmoke;
   
 }
 
