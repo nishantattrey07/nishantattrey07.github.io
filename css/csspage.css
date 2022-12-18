@@ -8,6 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+#main-head{
+    color:black;
+}
+#main-css{
+    margin-top: 5rem;
+}
 h1 {
     /* color: #2899f5;
     font-family: 'Montserrat',sans-serif;
@@ -179,10 +185,11 @@ p {
   
   #nav-bar-link{
     color: rgb(109, 109, 114);
+    text-decoration: none;
   }
   
   #nav-bar-link:hover{
-    color: rgb(187, 186, 186);
+    color: #2899f5;
   }
 div.Intro1 {
     padding-left: 20px;

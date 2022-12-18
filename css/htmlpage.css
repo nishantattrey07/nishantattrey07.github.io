@@ -38,7 +38,7 @@ body {
 }
 
 #nav-bar-link:hover{
-  color: rgb(187, 186, 186);
+  color: #2899f5;
 }
 
 .headingdefined {
@@ -239,7 +239,6 @@ a:visited{
 }
 a:hover {
     color: rgb(78, 103, 126);
-    font-size: 110%;
 } 
 
 
