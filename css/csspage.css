@@ -183,12 +183,12 @@ p {
     justify-content: space-evenly;
   }
   
-  #nav-bar-link{
+  .nav-bar-link{
     color: rgb(109, 109, 114);
     text-decoration: none;
   }
   
-  #nav-bar-link:hover{
+  .nav-bar-link:hover{
     color: #2899f5;
   }
 div.Intro1 {

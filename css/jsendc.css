@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+pre.explanation{
+    color:black
+}
+#main-head{
+    color: black;
+    border-left: none;
+    font-size: 2rem;
+}
+h1{
+    color:#2899f5;;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+  
+}
+
+
+
+h2 {
+    color: #2899f5;;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+  
+}
+
+h3{
+
+    color:#2899f5;;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+div.content{
+    
+    color:whitesmoke;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+div.semi{
+    
+    padding-left:25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 25px;
+}
+div.code{
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
+h1{
+    border-left: medium outset #2899f5;;
+    border-radius: 4px;
+}
+pre{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+  
+}
+emphasis{
+    font-weight: bold;
+    color: #2899f5;;
+}
+#main-nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main-nav-bar-child1 {
+    width: 30%;
+
+}
+
+#main-nav-bar-child2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar-link {
+    color: rgb(109, 109, 114);
+    text-decoration: none;
+}
+
+.nav-bar-link:hover {
+    color: #2899f5;
+}
+
+#totop:hover{
+color: rgb(109, 109, 114);
+}
+#totop{
+    color: #2899f5;
+    text-decoration: none;
+}
