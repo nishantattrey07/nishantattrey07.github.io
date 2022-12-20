@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Orbitron&family=Poppins:wght@200;400&family=Signika:wght@300&display=swap');
+
+
 html {
     font-size: 20px;
 }
@@ -35,7 +38,7 @@ content{
 
     
 }
-/* this is for heading layout */
+this is for heading layout 
 #NavigationBar{
   position: -webkit-sticky;
   position: sticky;
@@ -103,15 +106,12 @@ background-color: rgb(185, 34, 34);
 
 /* thi is for links */
 a:link{
-  color: crimson;
+  color: #542369;
   text-decoration: none;
 }
-a:visited{
-  color: crimson;
-  text-decoration: none;
-}
+
 a:hover {
-    color: rgb(78, 103, 126);
+
     font-size: 110%;
 } 
 
@@ -167,7 +167,41 @@ table, th, td {
 
 
 
-  /* 
-  
+  /* this is for hero section by Zekedami*/
+  .img-1{
+    position: absolute;
+    margin-left: 650px;
+    width: 60%;
+    margin-top: 50px;
     
-  */
+
+  }
+  .hero{
+    position: relative;
+    height: 600px;
+  }
+
+  /*.navbar{
+    box-shadow: 5px 5px 5px gray;
+  }*/
+  
+  
+  body {
+    background-color: white;
+    color: black;
+    font-family: Poppins;
+  }  
+  .div1{
+    width: 50%;
+    position: absolute;
+    margin: 170px 100px;
+    color: #542369;
+  }
+  .btn1{
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #8741d9;
+    color: white;
+  }
