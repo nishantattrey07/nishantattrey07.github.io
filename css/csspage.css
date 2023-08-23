@@ -8,6 +8,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+
+i {
+    margin-left: 0.3em;
+}
+
 #main-head{
     color:black;
 }

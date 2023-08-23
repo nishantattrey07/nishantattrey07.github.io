@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&family=M+PLUS+1:wght@700&family=Oxygen:wght@300;400&family=Ubuntu&display=swap');
+
 * {
   margin: 0;
   padding: 0;
- 
 }
 
 body {
@@ -10,7 +10,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-
+i {
+  margin-left: 0.3em;
+}
 
 #main-nav-bar{
   display: flex;
@@ -45,8 +47,6 @@ body {
   font-size: 2rem;
 }
 
-
-
 .main-heading {
   display: inline-block;
   padding: 0 5rem;
@@ -68,13 +68,10 @@ body {
   border-radius: 15px;
 }
 
-
-
 .head {
   margin: 2rem;
   width: 40%;
 }
-
 
 .head-color {
   color: #2899f5;
@@ -200,8 +197,6 @@ html {
   transform: scale(1.3);
 }
 
-
-
 content{
   margin-top: 100px;
 }
@@ -220,28 +215,23 @@ content{
   padding: 0px;
   margin: 0px; */
   position: -webkit-sticky;
- 
-  text-align:center;
- 
-
-    
+  text-align:center;  
 }
 
-
-/* thi is for links */
+/* this is for links */
 a:link{
   color: #2899f5;
   text-decoration: none;
 }
+
 a:visited{
   color: #2899f5;
   text-decoration: none;
 }
+
 a:hover {
     color: rgb(78, 103, 126);
 } 
-
-
 
 .divhead{
   font-size: 1rem;
@@ -285,14 +275,8 @@ table, th, td {
   }
   tr:hover {background-color: #D6EEEE;}
 
-
-
-
-
   /* 
   EXTRA CODE
-
-
 
     /* this is for heading layout
   #NavigationBar{
@@ -359,8 +343,6 @@ table, th, td {
     display: block ;
     text-decoration: none;
   }
-    
-
 
 /* this is for heading h2 */
 
@@ -370,9 +352,6 @@ table, th, td {
 } */
 
 /* customizing headings content */
-
-
-
 
 /* body {
     background-color: white;
@@ -384,5 +363,3 @@ table, th, td {
 Times,
 serif;
 } */
-
-
