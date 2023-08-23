@@ -4,3 +4,4 @@
 - [Pranav Tripathi](https://github.com/prnvtripathi)
 - [Ritu Thakur](https://github.com/Ritu-03Thakur)
 - [Om Sarraf](http://github.com/itsOmSarraf)
+- [Zyphaex](https://github.com/Zyphaex)
