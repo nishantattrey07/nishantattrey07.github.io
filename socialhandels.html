@@ -1,20 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>socialhandels</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
+  <title>Social Media</title>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .heading {
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; /* Stack elements vertically */
+    }
+
+    .social-container {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      
+      width: fit-content;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+      margin: 10px;
+      z-index: 1;
+    }
+    .social-container:hover {
+      box-shadow: 0 0 15px rgba(33,33,33,.2);
+      cursor: pointer;
+      z-index: 0;
+    }
+
+    .social-link {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
-
 <body>
-    <h1><b>Social Handels</b></h1>
-    <hr>
-    <a href="https://twitter.com/nishantstwt">twitter</a>
-    <br>&nbsp;
-    <br><a href="https://github.com/nishantattrey07">github</a>
-</body>
 
+  <div class="heading">
+    <h1>Social Media</h1>
+  </div>
+  <div class="container">
+    <div class="social-container">
+     <a class="social-link" href="https://github.com" target="_blank">
+  <img src="img/github-logo.png" alt="github" style="width: 64px; height: 64px;">
+</a>
+
+    </div>
+    <div class="social-container">
+      <a class="social-link" href="https://github.com" target="_blank">
+  <img src="img/linkedin.png" alt="linkedin" style="width: 64px; height: 64px;">
+</a>
+
+    </div>
+    <div class="social-container">
+      <a class="social-link" href="https://www.example.com" target="_blank"><img src="img/csilogo.png" alt="csilogo" style="width: 64px; height: 64px;"></a>
+    </div>
+    <div class="social-container">
+      <a class="social-link" href="mailto:example@example.com"><img src="img/mail.png" alt="email" style="width: 64px; height: 64px;"></a>
+    </div>
+  </div>
+</body>
 </html>
